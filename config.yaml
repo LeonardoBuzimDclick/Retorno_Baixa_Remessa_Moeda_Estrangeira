@@ -1,0 +1,14 @@
+email:
+  login: suporte@dclick.com.br
+  password: vanxhewjbhhuyoly
+  #receivers: lucas.rodrigues@dclick.com.br,leonardo.buzim@dclick.com.br
+  receivers: leonardo.buzim@dclick.com.br
+
+logLevel: 20
+
+
+codigo_imposto:
+  '0473': IR
+  '8741': CIDE
+  '5434': PIS
+  '5442': COFINS

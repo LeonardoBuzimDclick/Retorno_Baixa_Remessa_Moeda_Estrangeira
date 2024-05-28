@@ -1,0 +1,23 @@
+2024-05-24 17:17:06.098Z;functions.tranf_pdf_img1.1819:  dirpath: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\
+ dirnames: ['1505', 'imagens', 'Nova pasta', 'pdf_img_orig']
+ filenames: ['ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28.pdf', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf', 'AXA_CONTRATO_USD 3.972,37_R$ 20.294,84.pdf', 'AXA_CONTRATO_USD 5.325,11_R$ 27.205,99.pdf', 'EXTRATO BTG 012024.pdf', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf']
+2024-05-24 17:17:06.098Z;functions.tranf_pdf_img1.1819:  dirpath: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\1505
+ dirnames: ['EXTRATO BTG 012024']
+ filenames: ['AXA_CONTRATO USD 53.407,97_R$ 265.437,61.pdf', 'EXTRATO BTG 012024.pdf', 'GILL INSTRUMENTS_CONTRATO GBP 2.416,00_R$ 15.127,78.pdf', 'GYROMARSAT_CONTRATO USD 6.325,85_R$ 31.439,47.pdf', 'IMCA_CONTRATO GBP 8.080,00_R$ 50.592,92.pdf', 'MACGREGOR_CONTRATO USD 1.375,00_R$6.833,75.pdf', 'WAYPOINT_CONTRATO USD 1.640,50_R$ 8.153,28.pdf']
+2024-05-24 17:17:06.098Z;functions.tranf_pdf_img1.1819:  dirpath: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\1505\EXTRATO BTG 012024
+ dirnames: []
+ filenames: ['imagem_1.jpg']
+2024-05-24 17:17:06.114Z;functions.tranf_pdf_img1.1819:  dirpath: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\imagens
+ dirnames: []
+ filenames: ['ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_1.PNG', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_1.tiff', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_2.PNG', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_2.tiff', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_3.PNG', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_3.tiff', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_4.PNG', 'ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28_4.tiff', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_1.PNG', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_1.tiff', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_2.PNG', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_2.tiff', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_3.PNG', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_3.tiff', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_4.PNG', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28_4.tiff', 'EXTRATO BTG 012024_1.PNG', 'EXTRATO BTG 012024_1.tiff', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_1.PNG', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_1.tiff', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_2.PNG', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_2.tiff', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_3.PNG', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_3.tiff', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_4.PNG', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16_4.tiff']
+2024-05-24 17:17:06.114Z;functions.tranf_pdf_img1.1819:  dirpath: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\Nova pasta
+ dirnames: []
+ filenames: ['ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28.pdf', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf', 'AXA_CONTRATO_USD 3.972,37_R$ 20.294,84.pdf', 'AXA_CONTRATO_USD 5.325,11_R$ 27.205,99.pdf', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf']
+2024-05-24 17:17:06.114Z;functions.tranf_pdf_img1.1819:  dirpath: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig
+ dirnames: []
+ filenames: ['ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28.pdf', 'ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf', 'EXTRATO BTG 012024.pdf', 'FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf']
+2024-05-24 17:17:06.114Z;functions.tranf_pdf_img1.1825:  tranf_pdf_img arquivos: ['C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\\\EXTRATO BTG 012024.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\\\1505\\EXTRATO BTG 012024.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\\\imagens\\EXTRATO BTG 012024_1.PNG', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\\\imagens\\EXTRATO BTG 012024_1.tiff', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\\\pdf_img_orig\\EXTRATO BTG 012024.pdf']
+2024-05-24 17:17:08.490Z;functions.tranf_pdf_img1.1856:  Imagem imagem_1.jpg salva.
+2024-05-24 17:17:08.537Z;functions.tranf_pdf_img1.1868:  Imagem imagem_1.jpg tratada.
+2024-05-24 17:17:37.021Z;functions.tranf_pdf_img1.1856:  Imagem imagem_1.jpg salva.
+2024-05-24 17:17:37.049Z;functions.tranf_pdf_img1.1868:  Imagem imagem_1.jpg tratada.

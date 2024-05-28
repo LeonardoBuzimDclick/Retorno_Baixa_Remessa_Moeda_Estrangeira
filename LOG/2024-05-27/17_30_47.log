@@ -1,0 +1,1352 @@
+2024-05-27 17:30:47.456Z;functions.extrato_excel.2340:  arquivos_xls ['BTG - 001464585 - Completo.xlsx']
+2024-05-27 17:30:47.457Z;functions.extrato_excel.2344:  arquivo_xls BTG - 001464585 - Completo.xlsx
+2024-05-27 17:30:47.567Z;functions.extrato_excel.2348:  dados      Unnamed: 0                 Data                                          Descrição Lançamento R$     Saldo R$
+0           NaN  2024-04-01 00:00:00                                     Saldo Anterior           NaN     34635.03
+1           NaN  2024-04-01 00:00:00  DÉBITO EM C/C VIA CIP - OCEANICA ENGENHARIA E ...        -34600        35.03
+2           NaN  2024-04-01 00:00:00  TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENG...        500000    500035.03
+3           NaN  2024-04-03 00:00:00                                       IOF S/CAMBIO       -151.94    499883.09
+4           NaN  2024-04-03 00:00:00                                       IOF S/CAMBIO        -77.12    499805.97
+..          ...                  ...                                                ...           ...          ...
+184         NaN  2024-04-29 00:00:00  DÉBITO EM C/C VIA CIP - OCEANICA ENGENHARIA E ...      -1000000    183349.51
+185         NaN  2024-04-30 00:00:00  TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENG...      10000000  10183349.51
+186         NaN  2024-04-30 00:00:00  Saldo Final + Rendimento Provisionado de Saldo...             -  10183349.51
+187         NaN    Total de Créditos                                                NaN      24500000          NaN
+188         NaN     Total de Débitos                                                NaN  -14351285.52          NaN
+
+[189 rows x 5 columns]
+2024-05-27 17:30:47.577Z;functions.extrato_excel.2374:  {'data': '01/04/2024', 'descricao': 'Saldo Anterior', 'valor': 'nan,00'}
+2024-05-27 17:30:47.579Z;functions.extrato_excel.2374:  {'data': '01/04/2024', 'descricao': 'DÉBITO EM C/C VIA CIP - OCEANICA ENGENHARIA E CONSULTORIA SA', 'valor': '34600,00'}
+2024-05-27 17:30:47.581Z;functions.extrato_excel.2374:  {'data': '01/04/2024', 'descricao': 'TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENGENHARIA E CONSULTORIA S.A.', 'valor': '500000,00'}
+2024-05-27 17:30:47.582Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '151,94'}
+2024-05-27 17:30:47.583Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '77,12'}
+2024-05-27 17:30:47.585Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '1036,87'}
+2024-05-27 17:30:47.586Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '103,38'}
+2024-05-27 17:30:47.587Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39985,49'}
+2024-05-27 17:30:47.588Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '20294,84'}
+2024-05-27 17:30:47.590Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '272861,32'}
+2024-05-27 17:30:47.591Z;functions.extrato_excel.2374:  {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '27205,99'}
+2024-05-27 17:30:47.593Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15121,63'}
+2024-05-27 17:30:47.594Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '18384,92'}
+2024-05-27 17:30:47.595Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '25161,34'}
+2024-05-27 17:30:47.597Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '193,16'}
+2024-05-27 17:30:47.598Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '50831,00'}
+2024-05-27 17:30:47.601Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '9531,00'}
+2024-05-27 17:30:47.604Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '6354,00'}
+2024-05-27 17:30:47.605Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '5008,24'}
+2024-05-27 17:30:47.608Z;functions.extrato_excel.2374:  {'data': '05/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '1087,32'}
+2024-05-27 17:30:47.610Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENGENHARIA E CONSULTORIA S.A.', 'valor': '14000000,00'}
+2024-05-27 17:30:47.612Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '37632,1'}
+2024-05-27 17:30:47.614Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6899,61'}
+2024-05-27 17:30:47.616Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31834,55'}
+2024-05-27 17:30:47.619Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '184838,75'}
+2024-05-27 17:30:47.621Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '72291,99'}
+2024-05-27 17:30:47.625Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1967,79'}
+2024-05-27 17:30:47.627Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '786114,52'}
+2024-05-27 17:30:47.637Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6285,02'}
+2024-05-27 17:30:47.639Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2164,33'}
+2024-05-27 17:30:47.640Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '14039,63'}
+2024-05-27 17:30:47.642Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28679,11'}
+2024-05-27 17:30:47.643Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13915,43'}
+2024-05-27 17:30:47.644Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '139641,68'}
+2024-05-27 17:30:47.645Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1664704,98'}
+2024-05-27 17:30:47.646Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12977,65'}
+2024-05-27 17:30:47.652Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7172,28'}
+2024-05-27 17:30:47.653Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '18717,3'}
+2024-05-27 17:30:47.656Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31570,56'}
+2024-05-27 17:30:47.658Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '60682,5'}
+2024-05-27 17:30:47.659Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4526,26'}
+2024-05-27 17:30:47.662Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7503,59'}
+2024-05-27 17:30:47.663Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5375,19'}
+2024-05-27 17:30:47.665Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15785,28'}
+2024-05-27 17:30:47.665Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '85760,74'}
+2024-05-27 17:30:47.676Z;functions.extrato_excel.2374:  {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15785,28'}
+2024-05-27 17:30:47.678Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '173672,16'}
+2024-05-27 17:30:47.688Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4695,33'}
+2024-05-27 17:30:47.691Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '98607,12'}
+2024-05-27 17:30:47.702Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2755,08'}
+2024-05-27 17:30:47.705Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15712,76'}
+2024-05-27 17:30:47.708Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '8460,9'}
+2024-05-27 17:30:47.711Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '17523,57'}
+2024-05-27 17:30:47.713Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13062,5'}
+2024-05-27 17:30:47.715Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7529,86'}
+2024-05-27 17:30:47.718Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3156,56'}
+2024-05-27 17:30:47.719Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3639,67'}
+2024-05-27 17:30:47.721Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '184916,27'}
+2024-05-27 17:30:47.722Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '357,52'}
+2024-05-27 17:30:47.737Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3833,06'}
+2024-05-27 17:30:47.740Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15513,47'}
+2024-05-27 17:30:47.741Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '568,24'}
+2024-05-27 17:30:47.744Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '44390,24'}
+2024-05-27 17:30:47.746Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '789,93'}
+2024-05-27 17:30:47.751Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '35123,93'}
+2024-05-27 17:30:47.753Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1039,51'}
+2024-05-27 17:30:47.757Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '186170,88'}
+2024-05-27 17:30:47.764Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4790,03'}
+2024-05-27 17:30:47.767Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '517,01'}
+2024-05-27 17:30:47.778Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '117558,23'}
+2024-05-27 17:30:47.783Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4,96'}
+2024-05-27 17:30:47.787Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1240,88'}
+2024-05-27 17:30:47.788Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '10472,54'}
+2024-05-27 17:30:47.790Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6981,69'}
+2024-05-27 17:30:47.792Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '19484,88'}
+2024-05-27 17:30:47.793Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '59116,89'}
+2024-05-27 17:30:47.795Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '48739,88'}
+2024-05-27 17:30:47.797Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1751,34'}
+2024-05-27 17:30:47.798Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31211,4'}
+2024-05-27 17:30:47.803Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '115,5'}
+2024-05-27 17:30:47.806Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '186,31'}
+2024-05-27 17:30:47.809Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '46209,7'}
+2024-05-27 17:30:47.811Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '72,98'}
+2024-05-27 17:30:47.812Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '210,27'}
+2024-05-27 17:30:47.816Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9166,55'}
+2024-05-27 17:30:47.818Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '23892,04'}
+2024-05-27 17:30:47.823Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '833,5'}
+2024-05-27 17:30:47.824Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '30787,91'}
+2024-05-27 17:30:47.825Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '173968,76'}
+2024-05-27 17:30:47.826Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3880,69'}
+2024-05-27 17:30:47.828Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7600,73'}
+2024-05-27 17:30:47.830Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13767,46'}
+2024-05-27 17:30:47.830Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '41382,97'}
+2024-05-27 17:30:47.838Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1019,55'}
+2024-05-27 17:30:47.839Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13196,11'}
+2024-05-27 17:30:47.841Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1092,43'}
+2024-05-27 17:30:47.844Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39553,53'}
+2024-05-27 17:30:47.845Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7600,73'}
+2024-05-27 17:30:47.848Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '58,99'}
+2024-05-27 17:30:47.852Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6683,05'}
+2024-05-27 17:30:47.854Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39457,78'}
+2024-05-27 17:30:47.857Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12098,3'}
+2024-05-27 17:30:47.858Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31,69'}
+2024-05-27 17:30:47.862Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28122,49'}
+2024-05-27 17:30:47.864Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '16266,59'}
+2024-05-27 17:30:47.865Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '29753,15'}
+2024-05-27 17:30:47.867Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28122,49'}
+2024-05-27 17:30:47.868Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '261,25'}
+2024-05-27 17:30:47.870Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9584,33'}
+2024-05-27 17:30:47.871Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '149,19'}
+2024-05-27 17:30:47.872Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '55335,43'}
+2024-05-27 17:30:47.874Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9447,08'}
+2024-05-27 17:30:47.875Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1012,84'}
+2024-05-27 17:30:47.876Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '143,18'}
+2024-05-27 17:30:47.877Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '158,45'}
+2024-05-27 17:30:47.879Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '37679,25'}
+2024-05-27 17:30:47.885Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '41698,14'}
+2024-05-27 17:30:47.888Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '171,72'}
+2024-05-27 17:30:47.889Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '21,06'}
+2024-05-27 17:30:47.890Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '45189,68'}
+2024-05-27 17:30:47.891Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5542,73'}
+2024-05-27 17:30:47.893Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '136,81'}
+2024-05-27 17:30:47.895Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '36,00'}
+2024-05-27 17:30:47.896Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '55,81'}
+2024-05-27 17:30:47.898Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '36003,85'}
+2024-05-27 17:30:47.901Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '14685,77'}
+2024-05-27 17:30:47.902Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9474,69'}
+2024-05-27 17:30:47.904Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '204,21'}
+2024-05-27 17:30:47.905Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53740,67'}
+2024-05-27 17:30:47.906Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '100,81'}
+2024-05-27 17:30:47.907Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '47,34'}
+2024-05-27 17:30:47.908Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '6,02'}
+2024-05-27 17:30:47.910Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '26529,16'}
+2024-05-27 17:30:47.917Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12456,88'}
+2024-05-27 17:30:47.922Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1584,62'}
+2024-05-27 17:30:47.923Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '99,94'}
+2024-05-27 17:30:47.925Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '26300,22'}
+2024-05-27 17:30:47.927Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '87,38'}
+2024-05-27 17:30:47.928Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '67,18'}
+2024-05-27 17:30:47.929Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '22993,47'}
+2024-05-27 17:30:47.930Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '17678,36'}
+2024-05-27 17:30:47.932Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '126,41'}
+2024-05-27 17:30:47.933Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '122,98'}
+2024-05-27 17:30:47.935Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '33265,39'}
+2024-05-27 17:30:47.936Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '32364,13'}
+2024-05-27 17:30:47.937Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '78222,56'}
+2024-05-27 17:30:47.938Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '8923,79'}
+2024-05-27 17:30:47.939Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '52148,38'}
+2024-05-27 17:30:47.940Z;functions.extrato_excel.2374:  {'data': '18/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '41103,5'}
+2024-05-27 17:30:47.942Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '202,46'}
+2024-05-27 17:30:47.945Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '137,04'}
+2024-05-27 17:30:47.947Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '551,07'}
+2024-05-27 17:30:47.948Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53277,75'}
+2024-05-27 17:30:47.949Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '36064,06'}
+2024-05-27 17:30:47.950Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '145018,77'}
+2024-05-27 17:30:47.959Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '202,46'}
+2024-05-27 17:30:47.960Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53277,75'}
+2024-05-27 17:30:47.962Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '53932,19'}
+2024-05-27 17:30:47.963Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '28339,67'}
+2024-05-27 17:30:47.964Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '6152,69'}
+2024-05-27 17:30:47.966Z;functions.extrato_excel.2374:  {'data': '19/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '35954,79'}
+2024-05-27 17:30:47.967Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '441482,69'}
+2024-05-27 17:30:47.968Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '91772,54'}
+2024-05-27 17:30:47.969Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '87364,75'}
+2024-05-27 17:30:47.972Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '90846,23'}
+2024-05-27 17:30:47.972Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2721,69'}
+2024-05-27 17:30:47.983Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '59354,22'}
+2024-05-27 17:30:47.984Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '61329,14'}
+2024-05-27 17:30:47.986Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5166,27'}
+2024-05-27 17:30:47.987Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6771,86'}
+2024-05-27 17:30:47.988Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4083,89'}
+2024-05-27 17:30:47.990Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '96274,00'}
+2024-05-27 17:30:47.992Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '80427,56'}
+2024-05-27 17:30:47.994Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '60564,15'}
+2024-05-27 17:30:47.997Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '233997,86'}
+2024-05-27 17:30:47.998Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '20868,51'}
+2024-05-27 17:30:47.999Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7829,42'}
+2024-05-27 17:30:48.000Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13580,36'}
+2024-05-27 17:30:48.001Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6422,15'}
+2024-05-27 17:30:48.002Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1731,27'}
+2024-05-27 17:30:48.004Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '239448,17'}
+2024-05-27 17:30:48.005Z;functions.extrato_excel.2374:  {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3250,21'}
+2024-05-27 17:30:48.015Z;functions.extrato_excel.2374:  {'data': '29/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '19551,00'}
+2024-05-27 17:30:48.017Z;functions.extrato_excel.2374:  {'data': '29/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5145000,00'}
+2024-05-27 17:30:48.018Z;functions.extrato_excel.2374:  {'data': '29/04/2024', 'descricao': 'DÉBITO EM C/C VIA CIP - OCEANICA ENGENHARIA E CONSULTORIA SA', 'valor': '1000000,00'}
+2024-05-27 17:30:48.020Z;functions.extrato_excel.2374:  {'data': '30/04/2024', 'descricao': 'TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENGENHARIA E CONSULTORIA S.A.', 'valor': '10000000,00'}
+2024-05-27 17:30:48.022Z;functions.extrato_excel.2374:  {'data': '30/04/2024', 'descricao': 'Saldo Final + Rendimento Provisionado de Saldo Remunerado', 'valor': ',00'}
+2024-05-27 17:30:48.023Z;functions.extrato_excel.2374:  {'data': 'Total de Créditos', 'descricao': 'nan', 'valor': '24500000,00'}
+2024-05-27 17:30:48.024Z;functions.extrato_excel.2374:  {'data': 'Total de Débitos', 'descricao': 'nan', 'valor': '14351285,52'}
+2024-05-27 17:30:48.027Z;functions.extrato_excel.2378:  linha_list [{'data': '01/04/2024', 'descricao': 'Saldo Anterior', 'valor': 'nan,00'}, {'data': '01/04/2024', 'descricao': 'DÉBITO EM C/C VIA CIP - OCEANICA ENGENHARIA E CONSULTORIA SA', 'valor': '34600,00'}, {'data': '01/04/2024', 'descricao': 'TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENGENHARIA E CONSULTORIA S.A.', 'valor': '500000,00'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '151,94'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '77,12'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '1036,87'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '103,38'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39985,49'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '20294,84'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '272861,32'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '27205,99'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15121,63'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '18384,92'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '25161,34'}, {'data': '05/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '193,16'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '50831,00'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '9531,00'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '6354,00'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '5008,24'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '1087,32'}, {'data': '15/04/2024', 'descricao': 'TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENGENHARIA E CONSULTORIA S.A.', 'valor': '14000000,00'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '37632,1'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6899,61'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31834,55'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '184838,75'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '72291,99'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1967,79'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '786114,52'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6285,02'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2164,33'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '14039,63'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28679,11'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13915,43'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '139641,68'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1664704,98'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12977,65'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7172,28'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '18717,3'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31570,56'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '60682,5'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4526,26'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7503,59'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5375,19'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15785,28'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '85760,74'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15785,28'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '173672,16'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4695,33'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '98607,12'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2755,08'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15712,76'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '8460,9'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '17523,57'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13062,5'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7529,86'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3156,56'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3639,67'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '184916,27'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '357,52'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3833,06'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15513,47'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '568,24'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '44390,24'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '789,93'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '35123,93'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1039,51'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '186170,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4790,03'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '517,01'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '117558,23'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4,96'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1240,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '10472,54'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6981,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '19484,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '59116,89'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '48739,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1751,34'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31211,4'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '115,5'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '186,31'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '46209,7'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '72,98'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '210,27'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9166,55'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '23892,04'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '833,5'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '30787,91'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '173968,76'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3880,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7600,73'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13767,46'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '41382,97'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1019,55'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13196,11'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1092,43'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39553,53'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7600,73'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '58,99'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6683,05'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39457,78'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12098,3'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28122,49'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '16266,59'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '29753,15'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28122,49'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '261,25'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9584,33'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '149,19'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '55335,43'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9447,08'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1012,84'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '143,18'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '158,45'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '37679,25'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '41698,14'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '171,72'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '21,06'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '45189,68'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5542,73'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '136,81'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '36,00'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '55,81'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '36003,85'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '14685,77'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9474,69'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '204,21'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53740,67'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '100,81'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '47,34'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '6,02'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '26529,16'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12456,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1584,62'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '99,94'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '26300,22'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '87,38'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '67,18'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '22993,47'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '17678,36'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '126,41'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '122,98'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '33265,39'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '32364,13'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '78222,56'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '8923,79'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '52148,38'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '41103,5'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '202,46'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '137,04'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '551,07'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53277,75'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '36064,06'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '145018,77'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '202,46'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53277,75'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '53932,19'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '28339,67'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '6152,69'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '35954,79'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '441482,69'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '91772,54'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '87364,75'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '90846,23'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2721,69'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '59354,22'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '61329,14'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5166,27'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6771,86'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4083,89'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '96274,00'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '80427,56'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '60564,15'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '233997,86'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '20868,51'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7829,42'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13580,36'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6422,15'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1731,27'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '239448,17'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3250,21'}, {'data': '29/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '19551,00'}, {'data': '29/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5145000,00'}, {'data': '29/04/2024', 'descricao': 'DÉBITO EM C/C VIA CIP - OCEANICA ENGENHARIA E CONSULTORIA SA', 'valor': '1000000,00'}, {'data': '30/04/2024', 'descricao': 'TRANSFERÊNCIA A CRÉDITO VIA PIX - OCEANICA ENGENHARIA E CONSULTORIA S.A.', 'valor': '10000000,00'}, {'data': '30/04/2024', 'descricao': 'Saldo Final + Rendimento Provisionado de Saldo Remunerado', 'valor': ',00'}, {'data': 'Total de Créditos', 'descricao': 'nan', 'valor': '24500000,00'}, {'data': 'Total de Débitos', 'descricao': 'nan', 'valor': '14351285,52'}]
+2024-05-27 17:30:48.068Z;functions.excel.2422:  imposto_list [{'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '151,94', 'imposto': 'IOF'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '77,12', 'imposto': 'IOF'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '1036,87', 'imposto': 'IOF'}, {'data': '03/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '103,38', 'imposto': 'IOF'}, {'data': '05/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '193,16', 'imposto': 'IOF'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '9531,00', 'cod_impo': '0473', 'imposto': 'IR'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '6354,00', 'cod_impo': '8741', 'imposto': 'CIDE'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '5008,24', 'cod_impo': '5442', 'imposto': 'COFINS'}, {'data': '05/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '1087,32', 'cod_impo': '5434', 'imposto': 'PIS'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '210,27', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '143,18', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '158,45', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '171,72', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '21,06', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '136,81', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '36,00', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '55,81', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '204,21', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '100,81', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '47,34', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '6,02', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '99,94', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '87,38', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '67,18', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '126,41', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '122,98', 'imposto': 'IOF'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '78222,56', 'cod_impo': '0473', 'imposto': 'IR'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '8923,79', 'cod_impo': '5434', 'imposto': 'PIS'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '52148,38', 'cod_impo': '8741', 'imposto': 'CIDE'}, {'data': '18/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '41103,5', 'cod_impo': '5442', 'imposto': 'COFINS'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '202,46', 'imposto': 'IOF'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '137,04', 'imposto': 'IOF'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '551,07', 'imposto': 'IOF'}, {'data': '19/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '202,46', 'imposto': 'IOF'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 0473 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '53932,19', 'cod_impo': '0473', 'imposto': 'IR'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 5442 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '28339,67', 'cod_impo': '5442', 'imposto': 'COFINS'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 5434 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '6152,69', 'cod_impo': '5434', 'imposto': 'PIS'}, {'data': '19/04/2024', 'descricao': 'PAG DARF 8741 - OCEANICA ENGENHARIA E CONSULTORIA', 'valor': '35954,79', 'cod_impo': '8741', 'imposto': 'CIDE'}, {'data': '29/04/2024', 'descricao': 'IOF S/CAMBIO', 'valor': '19551,00', 'imposto': 'IOF'}]
+2024-05-27 17:30:48.079Z;functions.excel.2423:  liq_cambio_list [{'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39985,49'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '20294,84'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '272861,32'}, {'data': '03/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '27205,99'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15121,63'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '18384,92'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '25161,34'}, {'data': '05/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '50831,00'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '37632,1'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6899,61'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31834,55'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '184838,75'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '72291,99'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1967,79'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '786114,52'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6285,02'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2164,33'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '14039,63'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28679,11'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13915,43'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '139641,68'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1664704,98'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12977,65'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7172,28'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '18717,3'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31570,56'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '60682,5'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4526,26'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7503,59'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5375,19'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15785,28'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '85760,74'}, {'data': '15/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15785,28'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '173672,16'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4695,33'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '98607,12'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2755,08'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15712,76'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '8460,9'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '17523,57'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13062,5'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7529,86'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3156,56'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3639,67'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '184916,27'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '357,52'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3833,06'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '15513,47'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '568,24'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '44390,24'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '789,93'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '35123,93'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1039,51'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '186170,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4790,03'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '517,01'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '117558,23'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4,96'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1240,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '10472,54'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6981,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '19484,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '59116,89'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '48739,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1751,34'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31211,4'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '115,5'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '186,31'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '46209,7'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '72,98'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9166,55'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '23892,04'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '833,5'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '30787,91'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '173968,76'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3880,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7600,73'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13767,46'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '41382,97'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1019,55'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13196,11'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1092,43'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39553,53'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7600,73'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '58,99'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6683,05'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '39457,78'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12098,3'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '31,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28122,49'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '16266,59'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '29753,15'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '28122,49'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '261,25'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9584,33'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '149,19'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '55335,43'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9447,08'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1012,84'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '37679,25'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '41698,14'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '45189,68'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5542,73'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '36003,85'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '14685,77'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '9474,69'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53740,67'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '26529,16'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '12456,88'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1584,62'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '26300,22'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '22993,47'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '17678,36'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '33265,39'}, {'data': '18/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '32364,13'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53277,75'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '36064,06'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '145018,77'}, {'data': '19/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '53277,75'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '441482,69'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '91772,54'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '87364,75'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '90846,23'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '2721,69'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '59354,22'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '61329,14'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5166,27'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6771,86'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '4083,89'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '96274,00'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '80427,56'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '60564,15'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '233997,86'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '20868,51'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '7829,42'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '13580,36'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '6422,15'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '1731,27'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '239448,17'}, {'data': '25/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '3250,21'}, {'data': '29/04/2024', 'descricao': 'LIQ CAMBIO', 'valor': '5145000,00'}]
+2024-05-27 17:30:48.095Z;functions.extrair_contrato.2001:  SERÃO TRATADOS 6 ARQUIVOS.
+2024-05-27 17:30:48.096Z;functions.extrair_contrato.2003:  arquivos: ['C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\AXA_CONTRATO_USD 3.972,37_R$ 20.294,84.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\AXA_CONTRATO_USD 5.325,11_R$ 27.205,99.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\EXTRATO BTG 012024.pdf', 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf']
+2024-05-27 17:30:48.098Z;functions.extrair_contrato.2009:  Contrato: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28.pdf
+2024-05-27 17:30:48.103Z;functions.extrair_contrato.2011:  nome ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28.pdf
+2024-05-27 17:31:17.833Z;functions.extrair_contrato.2045:  PDF COM IMAGEM
+2024-05-27 17:31:17.848Z;functions.tranf_pdf_pdf2.3038:  PDF copiado
+2024-05-27 17:31:17.848Z;functions.tranf_pdf_pdf2.3041:  nome ARGUS_CONTRATO_ USD 1.374,00_R$ 7.172,28
+2024-05-27 17:31:19.001Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:31:19.187Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:31:53.348Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:31:53.348Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:31:53.499Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:31:53.614Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:31:53.659Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:31:53.659Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:31:53.701Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:31:53.742Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:31:53.742Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:31:53.780Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:31:54.005Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:31:54.921Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:31:55.755Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:31:55.913Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:32:31.208Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:32:31.208Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:32:31.364Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:32:31.501Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:32:31.633Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:32:31.646Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:32:31.718Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:32:31.773Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:32:31.777Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:32:31.820Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:32:32.083Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:32:33.630Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:32:34.614Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:32:34.807Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:33:09.005Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:33:09.005Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:33:09.150Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:33:09.267Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:33:09.310Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:33:09.311Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:33:09.353Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:33:09.400Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:33:09.401Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:33:09.435Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:33:09.661Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:33:10.661Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:33:11.598Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:33:11.775Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:33:46.130Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:33:46.130Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:33:46.282Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:33:46.395Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:33:46.439Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:33:46.439Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:33:46.482Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:33:46.526Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:33:46.526Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:33:46.570Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:33:46.802Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:33:47.661Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:33:47.773Z;functions.tranf_pdf_pdf2.3095:  Novo PDF com imagens salvo
+2024-05-27 17:33:49.346Z;ocr.exec_concurrent.96:  Start processing 3 pages concurrently
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.286Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.305Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.339Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:34:04.722Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:34:08.216Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:34:22.153Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:34:22.199Z;ocr.exec_concurrent.145:  Postprocessing...
+2024-05-27 17:34:37.416Z;optimize.optimize.717:  Image optimization did not improve the file - optimizations will not be used
+2024-05-27 17:34:37.974Z;_pipeline.optimize_pdf.989:  Image optimization ratio: 1.00 savings: -0.1%
+2024-05-27 17:34:37.974Z;_pipeline.optimize_pdf.992:  Total file size ratio: 1.28 savings: 21.6%
+2024-05-27 17:34:38.057Z;_common.report_output_pdf.441:  Output file is a PDF/A-2B (as expected)
+2024-05-27 17:34:38.317Z;functions.pdf_image_to_text.2945:  PDF transformado para texto
+2024-05-27 17:34:39.292Z;functions.extrair_contrato.2052:  texto: Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405260950 15/04/2024 
+As partes a seguir denominadas, instituição autorizada à operar no mercado de câmbio e 
+cliente, contratam a presente operação de câmbio, nas condições aqui estipuladas e declaram que a 
+mesma subordina-se às normas, condições e exigências legais e regulamentares aplicáveis à 
+matéria. 
+Instituição autorizada a operar no mercado de câmbio 
+BANCO BTG PACTUAL 30.306.294/0001-45 
+Endereço 
+AV. BRIGADEIRO FARIA LIMA 3477 
+Ci_dade UF 
+SAÃAO PAULO SP 
+Cliente 
+Nome CNPJI/CPF/Ident. 
+OCEANICA ENGENHARIA E CONSULTORIA S.A. Estrangeiro 
+29.980.141/0001-08 
+Endereço 
+AVENIDA DAS AMERICAS 03434 BLC 01 SALAS 301 A 308 - BARRA DA TIJUCA 
+RIO DE JANEIRO RJ BRASIL 
+Instituição Intermediadora* 
+Dados da Operação 
+Valor em moeda estrangeira 
+1.374,00 (Mil e Trezentos e Setenta e Quatro Dólares dos Estados 
+Unidos 
+Valor em moeda nacional 
+R$ 7.172,28 (Sete Mil e Cento e Setenta e Dois Reais e Vinte e Oito 
+Centavos 
+Valor Efetivo Total (VET) | Descrição da forma de entrega da | Liquidação até 
+moeda estrangeira 
+5,220000000000 Teletransmissão 15/04/2024 
+Descrição da natureza do fato 
+Importação - Pagamento antecipado - até 180 dias 
+Pagador ou recebedor no exterior* 
+ARGUS REMOTE SYSTEMS AS 
+País do pagador ou recebedor no | Código da relação de vínculo entre o cliente e o 
+exterior* pagadori/recebedor no exterior* 
+- —Classifitcação não  requerida  pela 
+NORUEGA ulamentação 
+Percentual de adiantamento sobre o contrato de câmbio* _ 
+* Campo a ser preenchido quando aplicável 
+Página 1 de 4
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405260950 15/04/2024 
+Outras Especificações 
+Tributos(RS$): IR(0473) 0,00 - CIDE(8741) 0,00 - IOF 0,00 
+Tributos(R$): PIS(5434) 0,00 - COFINS(5442) 0,00 
+Tarifa do Contrato: R$0,00 
+INV 15345, 15288, 15287, 151360 
+Declaro estar ciente de que o Banco BTG Pactual S.A. (BTG') não presta consultoria tributária, 
+nem valida e/ou confirma impactos fiscais decorrentes do fechamento de contratos de câmbio. 
+Nesse sentido, concordo que qualquer decisão de recolhimento de tributos e eventuais 
+consectários legais cabe exclusivamente a mim e a meus assessores legais, e que os valores 
+monetários apresentados no presente contrato são apenas indicativos. Declaro também que, na 
+tomada de decisão sobre o recolhimento de tributos, considerei o risco de incidência de multa e 
+acréscimos moratórios caso o recolhimento ocorra em atraso. Em caso de desacordo com as 
+alíquotas e/ou com os valores apresentados no presente contrato, o recolhimento dos tributos 
+ocorrerá mediante indicação de fundamento legal apropriado, e será (i) realizado pelo BTG por 
+meio de pedido formalizado em carta específica; ou (ii) comprovado ao BTG por meio de prévio 
+envio dos respectivos comprovantes de recolhimento. Em qualquer dos casos, a carta e/ou o 
+comprovante refletirão os valores efetivamente recolhidos, sem que seja necessário alterar os 
+valores indicados no presente contrato em caso de divergências. Declaro ainda que estou ciente 
+de que, no entendimento do Banco, o fato gerador dos tributos decorrentes de remessas ao 
+exterior ocorre no momento do pagamento, crédito, entrega, emprego ou remessa. 
+Cláusulas Contratuais 
+(0004) O COMPRADOR SE RESPONSABILIZA PELA EXATIDAO DAS INFORMACOES POR 
+ELE PRESTADAS NO  AMBITO DO PRESENTE — CONTRATO, DEVENDO, 
+INCLUSIVE, REEMBOLSAR INTEGRALMENTE O BANCO BTG PACTUAL S.A. PELO 
+PAGAMENTO DE MULTAS E QUAISQUER OUTRAS DESPESAS DECORRENTES DE 
+INCORRECAO DAS MESMAS. 
+(0006) O COMPRADOR DECLARA PARA OS DEVIDOS FINS ESTAR EM DIA COM TODAS AS 
+OBRIGACOES TRIBUTARIAS PERANTE A RECEITA FEDERAL, ASSUMINDO NESTE ATO 
+TOTAL E IRRETRATAVEL RESPONSABILIDADE PELA VERACIDADE DESTA INFORMA CAO. 
+O COMPRADOR ASSUME, AINDA, DE FORMA INTEGRAL, A RESPONSABILIDADE PELO 
+PAGAMENTO DE ITRIBUIOS RELAIIVOS A OPERACÃO EM REFERENCIA QUE 
+PORVENTURA VENHAM AÀ SER EXIGIDOS PELAS AUTORIDADES GOVERNAMENTAIS 
+BRASILEIRAS OU ESTRANGEIRAS. 
+(0008) O COMPRADOR COMPROMETE-SE DE FORMA IRRETRATAVEL AÀA ACATAR 
+IMEDIATA- MENTE QUALQUER SOLICITACÃO DO BANCO CENTRAL DO BRASIL OU DA 
+RECEITA FEDERAL, INCLUSIVE PEDIDO DE ENVIO DE INFORMACOES E DOCUMENTOS 
+RELATIVOS AÀ ESTA OPERAÇAO DE CAMBIO. 
+(0010) O COMPRADOR, PELA ASSINATURA DO PRESENTE CONTRATO, DESDE JÁ 
+RECONHECE QUE O VENDEDOR PODERÁ ESTAR IMPEDIDO DE LIQUIDAR O PRESENTE 
+CONTRATO EM VIRTUDE DE ESTAR SUJEITO TANTO ÀS LEIS E REGULAMENTAÇÕES 
+BRASILEIRAS, QUANTO ÀS ESTRANGEIRAS, DEPENDENDO DAS CIRCUNSTÂNCIAS DAS 
+Página 2 de 4 
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405260950 15/04/2024 
+NEGOCIAÇÕES ENTRE AS PARTES. NA HIPÓTESE DE TAL ACONTECIMENTO, O 
+VENDEDOR DEVERÁ INFORMAR E JUSTIFICAR AO COMPRADOR QUAL FOI O MOTIVO DA 
+MENCIONADA IMPOSSIBILIDADE, FICANDO DESDE JÁ ACORDADO QUE COMPRADOR 
+DEVERÁ SOLICITAR A TRANSFERÊNCIA DA ORDEM DE PAGAMENTO PARA OUTRA 
+INSTITUIÇÃO DE FORMA IMEDIATA. NA IMPOSSIBILIDADE DE TAL TRANSFERÊNCIA, A 
+PRESENTE OPERAÇÃO SERÁ CANCELADA, SEM QUAISQUER RESPONSABILIDADES, 
+OBRIGAÇÕES OU ÔNUS PARA O VENDEDOR. 
+(0012) PELA ASSINATURA DO PRESENTE CONTRAIO, O COMPRADOR DE MOEDA 
+ESTRANGEIRA ASSUME DESDE UJA DE FORMA EXCLUSIVA — QUALQUER 
+RESPONSABILIDADE REFERENTE AÀ PRESTACÃO DE INFORMACOES RELATIVAS AS 
+TRANSAÇCOES SUBJACENTES AO CONTRATO DE CAMBIO, INCLUINDO, QUANDO FOR O 
+CASO, O PREENCHIMENTO DO SISTEMA INTEGRADO DE COMERCIO EXTERIOR DE 
+SERVICOS, INTANGIVEIS E OUTRAS OPERACOES QUE PRODUZAM VARIACOES NO 
+PATRIMONIO (SISCOSERV), FICANDO O BANCO BTG PACTUAL S.A., OU QUALQUER 
+OUTRA EMPRESA INTEGRANTE DE SEU GRUPO, ISENTO DE QUAISQUER OBRIGACOES 
+ADVINDAS DA OMISSAÃO OU INCORRECÇCAÃO DAS INFORMACOES PRESTADAS. 
+Instruções de recebimento/pagamento 
+Canal Bancário em Moeda Nacional 
+Forma de Entrega | Data Banco Agência | Conta 
+Conta de Depósito | 15/04/2024 208 BTG 1 OO1464585 
+Canal Bancário em Moeda Estrangeria 
+Banco do Beneficiário 
+DNBANOKK 
+DNB BANK ASA 
+Conta no Exterior do Beneficiário / IBAN 
+NOS11503182964 7 
+Banco Intermediário 
+Código SWIFT Código ABA Código Chips 
+Nome do Banco 
+Conta do Banco do Beneficiário no Banco Intermediário / IBAN MMM 
+Página 3 de 4
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+Venda Contratação 405260950 15/04/2024 
+O cliente declara ter pleno conhecimento do texto constante do respectivo contrato de câmbio, do 
+art. 23 da Lei nº 4.131, de 3 de setembro de 1962, e em especial dos seus 88 2º e 3º, transcritos 
+neste documento, bem como da Circular nº 3.691, de 16 de dezembro de 2013, que regem a 
+presente operação. 
+Artigo 23, 88 2º e 3º, da Lei nº 4.131, de 1962, com a redação dada pelo art. 44 da Lei nº 13.506, de 
+13 de novembro de 2017: 
+8 2º Constitui infração imputável individualmente ao estabelecimento bancário, ao corretor e ao 
+cliente a declaração de falsa identidade no formulário que, segundo o modelo determinado pelo 
+Banco Central do Brasil, será exigido em cada operação, assinado pelo cliente e visado pelo 
+estabelecimento bancário e pelo corretor que nela intervierem. 
+8 3º Constitui infração, de responsabilidade exclusiva do cliente, a declaração de informações falsas 
+no formulário a que se refere o & 2º deste artigo. 
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio 
+assinado eletronicamente”. 
+Instituição autorizada a operar no mercado de câmbio: BANCO BTG PACTUAL S/A 
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio 
+assinado eletronicamente”. 
+Cliente: OCEANICA ENGENHARIA E CONSULTORIA S.A. 
+Página 4 de 4
+
+2024-05-27 17:34:39.401Z;functions.extrair_contrato.2078:  num_contrato 405260950
+2024-05-27 17:34:39.402Z;functions.extrair_contrato.2088:  banco BANCO BTG PACTUAL
+2024-05-27 17:34:39.404Z;functions.extrair_contrato.2101:  taxa_camb 5,220000000000
+2024-05-27 17:34:39.405Z;functions.extrair_contrato.2111:  inv 15345
+2024-05-27 17:34:39.406Z;functions.extrair_contrato.2121:  pagador ARGUS REMOTE SYSTEMS AS 
+2024-05-27 17:34:39.408Z;functions.extrair_contrato.2136:  moeda Não encontrada
+2024-05-27 17:34:39.409Z;functions.extrair_contrato.2137:  valor_estr 1.374,00
+2024-05-27 17:34:39.410Z;functions.extrair_contrato.2149:  ir 0,00
+2024-05-27 17:34:39.413Z;functions.extrair_contrato.2159:  cide 0,00
+2024-05-27 17:34:39.416Z;functions.extrair_contrato.2169:  pis 0,00
+2024-05-27 17:34:39.418Z;functions.extrair_contrato.2179:  cofins 0,00
+2024-05-27 17:34:39.419Z;functions.extrair_contrato.2189:  iof 0,00
+2024-05-27 17:34:39.421Z;functions.extrair_contrato.2253:  Informações extraidas: {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\ARGUS_CONTRATO_USD1374,00_R$7172,28pdf', 'contrato': '405260950', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,220000000000', 'inv': '15345', 'pagador': 'ARGUS REMOTE SYSTEMS AS ', 'moeda': 'Não encontrada', 'valor': '1.374,00', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '0,00'}
+2024-05-27 17:34:39.424Z;functions.extrair_contrato.2261:  contrato_padrao_list
+2024-05-27 17:34:39.425Z;functions.extrair_contrato.2009:  Contrato: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf
+2024-05-27 17:34:39.427Z;functions.extrair_contrato.2011:  nome ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf
+2024-05-27 17:35:13.449Z;functions.extrair_contrato.2045:  PDF COM IMAGEM
+2024-05-27 17:35:13.458Z;functions.tranf_pdf_pdf2.3038:  PDF copiado
+2024-05-27 17:35:13.459Z;functions.tranf_pdf_pdf2.3041:  nome ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28
+2024-05-27 17:35:14.536Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:35:14.688Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:35:49.145Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:35:49.145Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:35:49.309Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:35:49.450Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:35:49.524Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:35:49.525Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:35:49.569Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:35:49.618Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:35:49.622Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:35:49.665Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:35:49.928Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:35:51.021Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:35:52.208Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:35:52.380Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:36:27.301Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:36:27.301Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:36:27.447Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:36:27.565Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:36:27.611Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:36:27.612Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:36:27.740Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:36:27.805Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:36:27.805Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:36:27.852Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:36:28.099Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:36:29.208Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:36:29.864Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:36:29.991Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:37:04.445Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:37:04.446Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:37:04.583Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:37:04.699Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:37:04.744Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:37:04.744Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:37:04.783Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:37:04.825Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:37:04.826Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:37:04.865Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:37:05.116Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:37:06.119Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:37:06.973Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:37:07.136Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:37:42.223Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:37:42.223Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:37:42.361Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:37:42.500Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:37:42.553Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:37:42.554Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:37:42.601Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:37:42.648Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:37:42.648Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:37:42.689Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:37:42.962Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:37:43.786Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:37:43.918Z;functions.tranf_pdf_pdf2.3095:  Novo PDF com imagens salvo
+2024-05-27 17:37:45.137Z;ocr.exec_concurrent.96:  Start processing 3 pages concurrently
+2024-05-27 17:37:59.811Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:37:59.856Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:37:59.862Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.863Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.871Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.876Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.877Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.884Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.886Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.887Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.890Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:37:59.891Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:38:03.271Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:38:19.962Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:38:20.008Z;ocr.exec_concurrent.145:  Postprocessing...
+2024-05-27 17:38:34.172Z;optimize.optimize.717:  Image optimization did not improve the file - optimizations will not be used
+2024-05-27 17:38:34.438Z;_pipeline.optimize_pdf.989:  Image optimization ratio: 1.00 savings: -0.1%
+2024-05-27 17:38:34.439Z;_pipeline.optimize_pdf.992:  Total file size ratio: 1.27 savings: 21.5%
+2024-05-27 17:38:34.469Z;_common.report_output_pdf.441:  Output file is a PDF/A-2B (as expected)
+2024-05-27 17:38:34.598Z;functions.pdf_image_to_text.2945:  PDF transformado para texto
+2024-05-27 17:38:34.864Z;functions.extrair_contrato.2052:  texto: Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405260930 15/04/2024 
+As partes a seguir denominadas, instituição autorizada à operar no mercado de câmbio e 
+cliente, contratam a presente operação de câmbio, nas condições aqui estipuladas e declaram que a 
+mesma subordina-se às normas, condições e exigências legais e regulamentares aplicáveis à 
+matéria. 
+Instituição autorizada a operar no mercado de câmbio 
+BANCO BTG PACTUAL 30.306.294/0001-45 
+Endereço 
+AV. BRIGADEIRO FARIA LIMA 3477 
+Ci_dade UF 
+SAÃAO PAULO SP 
+Cliente 
+Nome CNPJI/CPF/Ident. 
+OCEANICA ENGENHARIA E CONSULTORIA S.A. Estrangeiro 
+29.980.141/0001-08 
+Endereço 
+AVENIDA DAS AMERICAS 03434 BLC 01 SALAS 301 A 308 - BARRA DA TIJUCA 
+RIO DE JANEIRO RJ BRASIL 
+Instituição Intermediadora* 
+Dados da Operação 
+Valor em moeda estrangeira 
+3.024,00 (Três Mil e Vinte e Quatro Dólares dos Estados Unidos 
+Valor em moeda nacional 
+R$ 15./785,28 (Quinze Mil e Setecentos e Oitenta e Cinco Reais e 
+Vinte e Oito Centavos 
+Valor Efetivo Total (VET) | Descrição da forma de entrega da | Liquidação até 
+moeda estrangeira 
+5,220000000000 Teletransmissão 15/04/2024 
+Código da Natureza Descrição da natureza do fato 
+12407-67-N-05-67 Importação - Pagamento antecipado - até 180 dias 
+ARGUS REMOTE SYSTEMS AS 
+País do pagador ou recebedor no|Código da relação de vínculo entre o cliente e o 
+exterior* pagadorirecebedor no exterior* 
+- — Classificaão não  requerida  pela 
+NORUEGA ulamentação 
+Percentual de adiantamento sobre o contrato de câmbio* _ 
+* Campo a ser preenchido quando aplicável 
+Página 1 de 4
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405260930 15/04/2024 
+Outras Especificações 
+Tributos(RS$): IR(0473) 0,00 - CIDE(8741) 0,00 - IOF 0,00 
+Tributos(R$): PIS(5434) 0,00 - COFINS(5442) 0,00 
+Tarifa do Contrato: R$0,00 
+INV 15345, 15288, 15287, 151360 
+Declaro estar ciente de que o Banco BTG Pactual S.A. (BTG') não presta consultoria tributária, 
+nem valida e/ou confirma impactos fiscais decorrentes do fechamento de contratos de câmbio. 
+Nesse sentido, concordo que qualquer decisão de recolhimento de tributos e eventuais 
+consectários legais cabe exclusivamente a mim e a meus assessores legais, e que os valores 
+monetários apresentados no presente contrato são apenas indicativos. Declaro também que, na 
+tomada de decisão sobre o recolhimento de tributos, considerei o risco de incidência de multa e 
+acréscimos moratórios caso o recolhimento ocorra em atraso. Em caso de desacordo com as 
+alíquotas e/ou com os valores apresentados no presente contrato, o recolhimento dos tributos 
+ocorrerá mediante indicação de fundamento legal apropriado, e será (i) realizado pelo BTG por 
+meio de pedido formalizado em carta específica; ou (ii) comprovado ao BTG por meio de prévio 
+envio dos respectivos comprovantes de recolhimento. Em qualquer dos casos, a carta e/ou o 
+comprovante refletirão os valores efetivamente recolhidos, sem que seja necessário alterar os 
+valores indicados no presente contrato em caso de divergências. Declaro ainda que estou ciente 
+de que, no entendimento do Banco, o fato gerador dos tributos decorrentes de remessas ao 
+exterior ocorre no momento do pagamento, crédito, entrega, emprego ou remessa. 
+Cláusulas Contratuais 
+(0004) O COMPRADOR SE RESPONSABILIZA PELA EXATIDAO DAS INFORMACOES POR 
+ELE PRESTADAS NO  AMBITO DO PRESENTE — CONTRATO, DEVENDO, 
+INCLUSIVE, REEMBOLSAR INTEGRALMENTE O BANCO BTG PACTUAL S.A. PELO 
+PAGAMENTO DE MULTAS E QUAISQUER OUTRAS DESPESAS DECORRENTES DE 
+INCORRECAO DAS MESMAS. 
+(0006) O COMPRADOR DECLARA PARA OS DEVIDOS FINS ESTAR EM DIA COM TODAS AS 
+OBRIGACOES TRIBUTARIAS PERANTE A RECEITA FEDERAL, ASSUMINDO NESTE ATO 
+TOTAL E IRRETRATAVEL RESPONSABILIDADE PELA VERACIDADE DESTA INFORMA CAO. 
+O COMPRADOR ASSUME, AINDA, DE FORMA INTEGRAL, A RESPONSABILIDADE PELO 
+PAGAMENTO DE ITRIBUIOS RELAIIVOS A OPERACÃO EM REFERENCIA QUE 
+PORVENTURA VENHAM AÀ SER EXIGIDOS PELAS AUTORIDADES GOVERNAMENTAIS 
+BRASILEIRAS OU ESTRANGEIRAS. 
+(0008) O COMPRADOR COMPROMETE-SE DE FORMA IRRETRATAVEL AÀA ACATAR 
+IMEDIATA- MENTE QUALQUER SOLICITACÃO DO BANCO CENTRAL DO BRASIL OU DA 
+RECEITA FEDERAL, INCLUSIVE PEDIDO DE ENVIO DE INFORMACOES E DOCUMENTOS 
+RELATIVOS AÀ ESTA OPERAÇAO DE CAMBIO. 
+(0010) O COMPRADOR, PELA ASSINATURA DO PRESENTE CONTRATO, DESDE JÁ 
+RECONHECE QUE O VENDEDOR PODERÁ ESTAR IMPEDIDO DE LIQUIDAR O PRESENTE 
+CONTRATO EM VIRTUDE DE ESTAR SUJEITO TANTO ÀS LEIS E REGULAMENTAÇÕES 
+BRASILEIRAS, QUANTO ÀS ESTRANGEIRAS, DEPENDENDO DAS CIRCUNSTÂNCIAS DAS 
+Página 2 de 4 
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405260930 15/04/2024 
+NEGOCIAÇÕES ENTRE AS PARTES. NA HIPÓTESE DE TAL ACONTECIMENTO, O 
+VENDEDOR DEVERÁ INFORMAR E JUSTIFICAR AO COMPRADOR QUAL FOI O MOTIVO DA 
+MENCIONADA IMPOSSIBILIDADE, FICANDO DESDE JÁ ACORDADO QUE COMPRADOR 
+DEVERÁ SOLICITAR A TRANSFERÊNCIA DA ORDEM DE PAGAMENTO PARA OUTRA 
+INSTITUIÇÃO DE FORMA IMEDIATA. NA IMPOSSIBILIDADE DE TAL TRANSFERÊNCIA, A 
+PRESENTE OPERAÇÃO SERÁ CANCELADA, SEM QUAISQUER RESPONSABILIDADES, 
+OBRIGAÇÕES OU ÔNUS PARA O VENDEDOR. 
+(0012) PELA ASSINATURA DO PRESENTE CONTRAIO, O COMPRADOR DE MOEDA 
+ESTRANGEIRA ASSUME DESDE UJA DE FORMA EXCLUSIVA — QUALQUER 
+RESPONSABILIDADE REFERENTE AÀ PRESTACÃO DE INFORMACOES RELATIVAS AS 
+TRANSAÇCOES SUBJACENTES AO CONTRATO DE CAMBIO, INCLUINDO, QUANDO FOR O 
+CASO, O PREENCHIMENTO DO SISTEMA INTEGRADO DE COMERCIO EXTERIOR DE 
+SERVICOS, INTANGIVEIS E OUTRAS OPERACOES QUE PRODUZAM VARIACOES NO 
+PATRIMONIO (SISCOSERV), FICANDO O BANCO BTG PACTUAL S.A., OU QUALQUER 
+OUTRA EMPRESA INTEGRANTE DE SEU GRUPO, ISENTO DE QUAISQUER OBRIGACOES 
+ADVINDAS DA OMISSAÃO OU INCORRECÇCAÃO DAS INFORMACOES PRESTADAS. 
+Instruções de recebimento/pagamento 
+Canal Bancário em Moeda Nacional 
+Forma de Entrega | Data Banco Agência | Conta 
+Conta de Depósito | 15/04/2024 208 BTG 1 OO1464585 
+Canal Bancário em Moeda Estrangeria 
+Banco do Beneficiário 
+DNBANOKK 
+DNB BANK ASA 
+Conta no Exterior do Beneficiário / IBAN 
+NOS11503182964 7 
+Banco Intermediário 
+Código SWIFT Código ABA Código Chips 
+Nome do Banco 
+Conta do Banco do Beneficiário no Banco Intermediário / IBAN MMM 
+Página 3 de 4
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+Venda Contratação 405260930 15/04/2024 
+O cliente declara ter pleno conhecimento do texto constante do respectivo contrato de câmbio, do 
+art. 23 da Lei nº 4.131, de 3 de setembro de 1962, e em especial dos seus 88 2º e 3º, transcritos 
+neste documento, bem como da Circular nº 3.691, de 16 de dezembro de 2013, que regem a 
+presente operação. 
+Artigo 23, 88 2º e 3º, da Lei nº 4.131, de 1962, com a redação dada pelo art. 44 da Lei nº 13.506, de 
+13 de novembro de 2017: 
+8 2º Constitui infração imputável individualmente ao estabelecimento bancário, ao corretor e ao 
+cliente a declaração de falsa identidade no formulário que, segundo o modelo determinado pelo 
+Banco Central do Brasil, será exigido em cada operação, assinado pelo cliente e visado pelo 
+estabelecimento bancário e pelo corretor que nela intervierem. 
+8 3º Constitui infração, de responsabilidade exclusiva do cliente, a declaração de informações falsas 
+no formulário a que se refere o & 2º deste artigo. 
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio 
+assinado eletronicamente”. 
+Instituição autorizada a operar no mercado de câmbio: BANCO BTG PACTUAL S/A 
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio 
+assinado eletronicamente”. 
+Cliente: OCEANICA ENGENHARIA E CONSULTORIA S.A. 
+Página 4 de 4
+
+2024-05-27 17:38:34.909Z;functions.extrair_contrato.2078:  num_contrato 405260930
+2024-05-27 17:38:34.910Z;functions.extrair_contrato.2088:  banco BANCO BTG PACTUAL
+2024-05-27 17:38:34.912Z;functions.extrair_contrato.2101:  taxa_camb 5,220000000000
+2024-05-27 17:38:34.912Z;functions.extrair_contrato.2111:  inv 15345
+2024-05-27 17:38:34.913Z;functions.extrair_contrato.2123:  Erro pagador - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\ARGUS_CONTRATO_ USD 3.024,00_R$ 15.785,28.pdf
+2024-05-27 17:38:34.914Z;functions.extrair_contrato.2136:  moeda Não encontrada
+2024-05-27 17:38:34.914Z;functions.extrair_contrato.2137:  valor_estr 3.024,00
+2024-05-27 17:38:34.914Z;functions.extrair_contrato.2149:  ir 0,00
+2024-05-27 17:38:34.914Z;functions.extrair_contrato.2159:  cide 0,00
+2024-05-27 17:38:34.918Z;functions.extrair_contrato.2169:  pis 0,00
+2024-05-27 17:38:34.918Z;functions.extrair_contrato.2179:  cofins 0,00
+2024-05-27 17:38:34.919Z;functions.extrair_contrato.2189:  iof 0,00
+2024-05-27 17:38:34.919Z;functions.extrair_contrato.2253:  Informações extraidas: {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\ARGUS_CONTRATO_USD3024,00_R$15785,28pdf', 'contrato': '405260930', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,220000000000', 'inv': '15345', 'pagador': 'FORA DO PADRÃO', 'moeda': 'Não encontrada', 'valor': '3.024,00', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '0,00'}
+2024-05-27 17:38:34.920Z;functions.extrair_contrato.2257:  contrato_fora_padrao_list
+2024-05-27 17:38:34.921Z;functions.extrair_contrato.2009:  Contrato: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\AXA_CONTRATO_USD 3.972,37_R$ 20.294,84.pdf
+2024-05-27 17:38:34.921Z;functions.extrair_contrato.2011:  nome AXA_CONTRATO_USD 3.972,37_R$ 20.294,84.pdf
+2024-05-27 17:38:35.928Z;functions.extrair_contrato.2025:  PDF SEM IMAGEM
+2024-05-27 17:38:35.928Z;functions.extrair_contrato.2027:  texto: Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186441 03/04/2024
+As partes a seguir denominadas, instituição autorizada a operar no mercado de câmbio e
+cliente, contratam a presente operação de câmbio, nas condições aqui estipuladas e declaram que a
+mesma subordina-se às normas, condições e exigências legais e regulamentares aplicáveis à
+matéria.
+Instituição autorizada a operar no mercado de câmbio
+Nome CNPJ
+BANCO BTG PACTUAL 30.306.294/0001-45
+Endereço
+AV. BRIGADEIRO FARIA LIMA 3477
+Cidade UF
+SÃO PAULO SP
+Cliente
+Nome CNPJ/CPF/Ident.
+OCEANICA ENGENHARIA E CONSULTORIA S.A. Estrangeiro
+29.980.141/0001-08
+Endereço
+AVENIDA DAS AMERICAS 03434 BLC 01 SALAS 301 A 308 - BARRA DA TIJUCA
+Cidade UF/País
+RIO DE JANEIRO RJ BRASIL
+Instituição Intermediadora*
+Nome* CNPJ*
+Dados da Operação
+Código Moeda Valor em moeda estrangeira
+USD 3.972,37 (Três Mil e Novecentos e Setenta e Dois Dólares dos
+Estados Unidos e Trinta e Sete Centavos)
+Taxa Cambial Valor em moeda nacional
+5,109000000000 R$ 20.294,84 (Vinte Mil e Duzentos e Noventa e Quatro Reais e
+Oitenta e Três Centavos)
+Valor Efetivo Total (VET) Descrição da forma de entrega da Liquidação até
+moeda estrangeira
+5,128414100000 Teletransmissão 03/04/2024
+Código da Natureza Descrição da natureza do fato
+27117-67-N-05-67 Demais seguros e resseguros - Prêmio
+Pagador ou recebedor no exterior*
+AXA SEGUROS SA
+País do pagador ou recebedor no Código da relação de vínculo entre o cliente e o
+exterior* pagador/recebedor no exterior*
+67 - Classificação não requerida pela
+BRASIL regulamentação
+Percentual de adiantamento sobre o contrato de câmbio* RDE*
+* Campo a ser preenchido quando aplicável
+Página 1 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186441 03/04/2024
+Outras Especificações
+Tributos(R$): IR(0473) 0,00 - CIDE(8741) 0,00 - IOF 77,12
+Tributos(R$): PIS(5434) 0,00 - COFINS(5442) 0,00
+Tarifa do Contrato: R$0,00
+02852.2023.0021.1433.0000650_
+002 PARCELA 02/08
+02852.2023.0021.1433.0000650_
+001 PARCELA 03/04
+02852.2023.0021.1433.0000650_
+000 PARCELA 05/08
+02852.2023.0021.1433.0000650_0 PARCELA 01/07
+................................................................................
+Declaro estar ciente de que o Banco BTG Pactual S.A. ('BTG') não presta consultoria tributária,
+nem valida e/ou confirma impactos fiscais decorrentes do fechamento de contratos de câmbio.
+Nesse sentido, concordo que qualquer decisão de recolhimento de tributos e eventuais
+consectários legais cabe exclusivamente a mim e a meus assessores legais, e que os valores
+monetários apresentados no presente contrato são apenas indicativos. Declaro também que, na
+tomada de decisão sobre o recolhimento de tributos, considerei o risco de incidência de multa e
+acréscimos moratórios caso o recolhimento ocorra em atraso. Em caso de desacordo com as
+alíquotas e/ou com os valores apresentados no presente contrato, o recolhimento dos tributos
+ocorrerá mediante indicação de fundamento legal apropriado, e será (i) realizado pelo BTG por
+meio de pedido formalizado em carta específica; ou (ii) comprovado ao BTG por meio de prévio
+envio dos respectivos comprovantes de recolhimento. Em qualquer dos casos, a carta e/ou o
+comprovante refletirão os valores efetivamente recolhidos, sem que seja necessário alterar os
+valores indicados no presente contrato em caso de divergências. Declaro ainda que estou ciente
+de que, no entendimento do Banco, o fato gerador dos tributos decorrentes de remessas ao
+exterior ocorre no momento do pagamento, crédito, entrega, emprego ou remessa.
+................................................................................
+Cláusulas Contratuais
+(0004) O COMPRADOR SE RESPONSABILIZA PELA EXATIDAO DAS INFORMACOES POR
+ELE PRESTADAS NO AMBITO DO PRESENTE CONTRATO, DEVENDO,
+INCLUSIVE,REEMBOLSAR INTEGRALMENTE O BANCO BTG PACTUAL S.A. PELO
+PAGAMENTO DE MULTAS E QUAISQUER OUTRAS DESPESAS DECORRENTES DE
+INCORRECAO DAS MESMAS.
+(0006) O COMPRADOR DECLARA PARA OS DEVIDOS FINS ESTAR EM DIA COM TODAS AS
+OBRIGACOES TRIBUTARIAS PERANTE A RECEITA FEDERAL, ASSUMINDO NESTE ATO
+TOTAL E IRRETRATAVEL RESPONSABILIDADE PELA VERACIDADE DESTA INFORMA CAO.
+O COMPRADOR ASSUME, AINDA, DE FORMA INTEGRAL, A RESPONSABILIDADE PELO
+PAGAMENTO DE TRIBUTOS RELATIVOS A OPERACAO EM REFERENCIA QUE
+PORVENTURA VENHAM A SER EXIGIDOS PELAS AUTORIDADES GOVERNAMENTAIS
+BRASILEIRAS OU ESTRANGEIRAS.
+(0008) O COMPRADOR COMPROMETE-SE DE FORMA IRRETRATAVEL A ACATAR
+IMEDIATA- MENTE QUALQUER SOLICITACAO DO BANCO CENTRAL DO BRASIL OU DA
+Página 2 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186441 03/04/2024
+RECEITA FEDERAL, INCLUSIVE PEDIDO DE ENVIO DE INFORMACOES E DOCUMENTOS
+RELATIVOS A ESTA OPERACAO DE CAMBIO.
+(0010) O COMPRADOR, PELA ASSINATURA DO PRESENTE CONTRATO, DESDE JÁ
+RECONHECE QUE O VENDEDOR PODERÁ ESTAR IMPEDIDO DE LIQUIDAR O PRESENTE
+CONTRATO EM VIRTUDE DE ESTAR SUJEITO TANTO ÀS LEIS E REGULAMENTAÇÕES
+BRASILEIRAS, QUANTO ÀS ESTRANGEIRAS, DEPENDENDO DAS CIRCUNSTÂNCIAS DAS
+NEGOCIAÇÕES ENTRE AS PARTES. NA HIPÓTESE DE TAL ACONTECIMENTO, O
+VENDEDOR DEVERÁ INFORMAR E JUSTIFICAR AO COMPRADOR QUAL FOI O MOTIVO DA
+MENCIONADA IMPOSSIBILIDADE, FICANDO DESDE JÁ ACORDADO QUE COMPRADOR
+DEVERÁ SOLICITAR A TRANSFERÊNCIA DA ORDEM DE PAGAMENTO PARA OUTRA
+INSTITUIÇÃO DE FORMA IMEDIATA. NA IMPOSSIBILIDADE DE TAL TRANSFERÊNCIA, A
+PRESENTE OPERAÇÃO SERÁ CANCELADA, SEM QUAISQUER RESPONSABILIDADES,
+OBRIGAÇÕES OU ÔNUS PARA O VENDEDOR.
+(0012) PELA ASSINATURA DO PRESENTE CONTRATO, O COMPRADOR DE MOEDA
+ESTRANGEIRA ASSUME DESDE JA, DE FORMA EXCLUSIVA, QUALQUER
+RESPONSABILIDADE REFERENTE A PRESTACAO DE INFORMACOES RELATIVAS AS
+TRANSACOES SUBJACENTES AO CONTRATO DE CAMBIO, INCLUINDO, QUANDO FOR O
+CASO, O PREENCHIMENTO DO SISTEMA INTEGRADO DE COMERCIO EXTERIOR DE
+SERVICOS, INTANGIVEIS E OUTRAS OPERACOES QUE PRODUZAM VARIACOES NO
+PATRIMONIO (SISCOSERV), FICANDO O BANCO BTG PACTUAL S.A., OU QUALQUER
+OUTRA EMPRESA INTEGRANTE DE SEU GRUPO, ISENTO DE QUAISQUER OBRIGACOES
+ADVINDAS DA OMISSAO OU INCORRECAO DAS INFORMACOES PRESTADAS.
+Instruções de recebimento/pagamento
+Canal Bancário em Moeda Nacional
+Forma de Entrega Data Banco Agência Conta
+Conta de Depósito 03/04/2024 208 BTG 1 001464585
+Canal Bancário em Moeda Estrangeria
+Banco do Beneficiário
+Código SWIFT Código ABA Código Chips
+BSCHBRSP
+Nome do Banco
+BANCO SANTANDER (BRASIL) S.A.
+Conta no Exterior do Beneficiário / IBAN
+BR2390400888018560900578220E1
+Banco Intermediário
+Código SWIFT Código ABA Código Chips
+SCBLUS33
+Nome do Banco
+STANDARD CHARTERED BANK
+Página 3 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186441 03/04/2024
+Conta do Banco do Beneficiário no Banco Intermediário / IBAN
+Página 4 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186441 03/04/2024
+O cliente declara ter pleno conhecimento do texto constante do respectivo contrato de câmbio, do
+art. 23 da Lei n° 4.131, de 3 de setembro de 1962, e em especial dos seus §§ 2° e 3°, transcritos
+neste documento, bem como da Circular n° 3.691, de 16 de dezembro de 2013, que regem a
+presente operação.
+Artigo 23, §§ 2° e 3°, da Lei n° 4.131, de 1962, com a redação dada pelo art. 44 da Lei n° 13.506, de
+13 de novembro de 2017:
+§ 2° Constitui infração imputável individualmente ao estabelecimento bancário, ao corretor e ao
+cliente a declaração de falsa identidade no formulário que, segundo o modelo determinado pelo
+Banco Central do Brasil, será exigido em cada operação, assinado pelo cliente e visado pelo
+estabelecimento bancário e pelo corretor que nela intervierem.
+§ 3° Constitui infração, de responsabilidade exclusiva do cliente, a declaração de informações falsas
+no formulário a que se refere o § 2° deste artigo.
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio
+assinado eletronicamente”.
+Instituição autorizada a operar no mercado de câmbio: BANCO BTG PACTUAL S/A
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio
+assinado eletronicamente”.
+Cliente: OCEANICA ENGENHARIA E CONSULTORIA S.A.
+Página 5 de 5
+2024-05-27 17:38:35.989Z;functions.extrair_contrato.2078:  num_contrato 403186441
+2024-05-27 17:38:35.990Z;functions.extrair_contrato.2088:  banco BANCO BTG PACTUAL
+2024-05-27 17:38:35.991Z;functions.extrair_contrato.2101:  taxa_camb 5,109000000000
+2024-05-27 17:38:35.991Z;functions.extrair_contrato.2113:  Erro inv - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\AXA_CONTRATO_USD 3.972,37_R$ 20.294,84.pdf
+2024-05-27 17:38:35.992Z;functions.extrair_contrato.2121:  pagador AXA SEGUROS SA
+2024-05-27 17:38:35.992Z;functions.extrair_contrato.2136:  moeda USD
+2024-05-27 17:38:35.993Z;functions.extrair_contrato.2137:  valor_estr 3.972,37
+2024-05-27 17:38:35.994Z;functions.extrair_contrato.2149:  ir 0,00
+2024-05-27 17:38:35.995Z;functions.extrair_contrato.2159:  cide 0,00
+2024-05-27 17:38:35.996Z;functions.extrair_contrato.2169:  pis 0,00
+2024-05-27 17:38:35.997Z;functions.extrair_contrato.2179:  cofins 0,00
+2024-05-27 17:38:35.997Z;functions.extrair_contrato.2189:  iof 77,12
+2024-05-27 17:38:35.998Z;functions.extrair_contrato.2253:  Informações extraidas: {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\AXA_CONTRATO_USD3972,37_R$20294,84pdf', 'contrato': '403186441', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,109000000000', 'inv': 'FORA DO PADRÃO', 'pagador': 'AXA SEGUROS SA', 'moeda': 'USD', 'valor': '3.972,37', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '77,12'}
+2024-05-27 17:38:35.999Z;functions.extrair_contrato.2257:  contrato_fora_padrao_list
+2024-05-27 17:38:36.000Z;functions.extrair_contrato.2009:  Contrato: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\AXA_CONTRATO_USD 5.325,11_R$ 27.205,99.pdf
+2024-05-27 17:38:36.001Z;functions.extrair_contrato.2011:  nome AXA_CONTRATO_USD 5.325,11_R$ 27.205,99.pdf
+2024-05-27 17:38:37.176Z;functions.extrair_contrato.2025:  PDF SEM IMAGEM
+2024-05-27 17:38:37.176Z;functions.extrair_contrato.2027:  texto: Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186358 03/04/2024
+As partes a seguir denominadas, instituição autorizada a operar no mercado de câmbio e
+cliente, contratam a presente operação de câmbio, nas condições aqui estipuladas e declaram que a
+mesma subordina-se às normas, condições e exigências legais e regulamentares aplicáveis à
+matéria.
+Instituição autorizada a operar no mercado de câmbio
+Nome CNPJ
+BANCO BTG PACTUAL 30.306.294/0001-45
+Endereço
+AV. BRIGADEIRO FARIA LIMA 3477
+Cidade UF
+SÃO PAULO SP
+Cliente
+Nome CNPJ/CPF/Ident.
+OCEANICA ENGENHARIA E CONSULTORIA S.A. Estrangeiro
+29.980.141/0001-08
+Endereço
+AVENIDA DAS AMERICAS 03434 BLC 01 SALAS 301 A 308 - BARRA DA TIJUCA
+Cidade UF/País
+RIO DE JANEIRO RJ BRASIL
+Instituição Intermediadora*
+Nome* CNPJ*
+Dados da Operação
+Código Moeda Valor em moeda estrangeira
+USD 5.325,11 (Cinco Mil e Trezentos e Vinte e Cinco Dólares dos Estados
+Unidos e Onze Centavos)
+Taxa Cambial Valor em moeda nacional
+5,109000000000 R$ 27.205,99 (Vinte e Sete Mil e Duzentos e Cinco Reais e Noventa e
+Oito Centavos)
+Valor Efetivo Total (VET) Descrição da forma de entrega da Liquidação até
+moeda estrangeira
+5,128413680000 Teletransmissão 03/04/2024
+Código da Natureza Descrição da natureza do fato
+27117-67-N-05-67 Demais seguros e resseguros - Prêmio
+Pagador ou recebedor no exterior*
+AXA SEGUROS SA
+País do pagador ou recebedor no Código da relação de vínculo entre o cliente e o
+exterior* pagador/recebedor no exterior*
+67 - Classificação não requerida pela
+BRASIL regulamentação
+Percentual de adiantamento sobre o contrato de câmbio* RDE*
+* Campo a ser preenchido quando aplicável
+Página 1 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186358 03/04/2024
+Outras Especificações
+Tributos(R$): IR(0473) 0,00 - CIDE(8741) 0,00 - IOF 103,38
+Tributos(R$): PIS(5434) 0,00 - COFINS(5442) 0,00
+Tarifa do Contrato: R$0,00
+02852.2023.0021.1433.0000650_
+002 PARCELA 02/08
+02852.2023.0021.1433.0000650_
+001 PARCELA 03/04
+02852.2023.0021.1433.0000650_
+000 PARCELA 05/08
+02852.2023.0021.1433.0000650_0 PARCELA 01/07
+................................................................................
+Declaro estar ciente de que o Banco BTG Pactual S.A. ('BTG') não presta consultoria tributária,
+nem valida e/ou confirma impactos fiscais decorrentes do fechamento de contratos de câmbio.
+Nesse sentido, concordo que qualquer decisão de recolhimento de tributos e eventuais
+consectários legais cabe exclusivamente a mim e a meus assessores legais, e que os valores
+monetários apresentados no presente contrato são apenas indicativos. Declaro também que, na
+tomada de decisão sobre o recolhimento de tributos, considerei o risco de incidência de multa e
+acréscimos moratórios caso o recolhimento ocorra em atraso. Em caso de desacordo com as
+alíquotas e/ou com os valores apresentados no presente contrato, o recolhimento dos tributos
+ocorrerá mediante indicação de fundamento legal apropriado, e será (i) realizado pelo BTG por
+meio de pedido formalizado em carta específica; ou (ii) comprovado ao BTG por meio de prévio
+envio dos respectivos comprovantes de recolhimento. Em qualquer dos casos, a carta e/ou o
+comprovante refletirão os valores efetivamente recolhidos, sem que seja necessário alterar os
+valores indicados no presente contrato em caso de divergências. Declaro ainda que estou ciente
+de que, no entendimento do Banco, o fato gerador dos tributos decorrentes de remessas ao
+exterior ocorre no momento do pagamento, crédito, entrega, emprego ou remessa.
+................................................................................
+Cláusulas Contratuais
+(0004) O COMPRADOR SE RESPONSABILIZA PELA EXATIDAO DAS INFORMACOES POR
+ELE PRESTADAS NO AMBITO DO PRESENTE CONTRATO, DEVENDO,
+INCLUSIVE,REEMBOLSAR INTEGRALMENTE O BANCO BTG PACTUAL S.A. PELO
+PAGAMENTO DE MULTAS E QUAISQUER OUTRAS DESPESAS DECORRENTES DE
+INCORRECAO DAS MESMAS.
+(0006) O COMPRADOR DECLARA PARA OS DEVIDOS FINS ESTAR EM DIA COM TODAS AS
+OBRIGACOES TRIBUTARIAS PERANTE A RECEITA FEDERAL, ASSUMINDO NESTE ATO
+TOTAL E IRRETRATAVEL RESPONSABILIDADE PELA VERACIDADE DESTA INFORMA CAO.
+O COMPRADOR ASSUME, AINDA, DE FORMA INTEGRAL, A RESPONSABILIDADE PELO
+PAGAMENTO DE TRIBUTOS RELATIVOS A OPERACAO EM REFERENCIA QUE
+PORVENTURA VENHAM A SER EXIGIDOS PELAS AUTORIDADES GOVERNAMENTAIS
+BRASILEIRAS OU ESTRANGEIRAS.
+(0008) O COMPRADOR COMPROMETE-SE DE FORMA IRRETRATAVEL A ACATAR
+IMEDIATA- MENTE QUALQUER SOLICITACAO DO BANCO CENTRAL DO BRASIL OU DA
+Página 2 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186358 03/04/2024
+RECEITA FEDERAL, INCLUSIVE PEDIDO DE ENVIO DE INFORMACOES E DOCUMENTOS
+RELATIVOS A ESTA OPERACAO DE CAMBIO.
+(0010) O COMPRADOR, PELA ASSINATURA DO PRESENTE CONTRATO, DESDE JÁ
+RECONHECE QUE O VENDEDOR PODERÁ ESTAR IMPEDIDO DE LIQUIDAR O PRESENTE
+CONTRATO EM VIRTUDE DE ESTAR SUJEITO TANTO ÀS LEIS E REGULAMENTAÇÕES
+BRASILEIRAS, QUANTO ÀS ESTRANGEIRAS, DEPENDENDO DAS CIRCUNSTÂNCIAS DAS
+NEGOCIAÇÕES ENTRE AS PARTES. NA HIPÓTESE DE TAL ACONTECIMENTO, O
+VENDEDOR DEVERÁ INFORMAR E JUSTIFICAR AO COMPRADOR QUAL FOI O MOTIVO DA
+MENCIONADA IMPOSSIBILIDADE, FICANDO DESDE JÁ ACORDADO QUE COMPRADOR
+DEVERÁ SOLICITAR A TRANSFERÊNCIA DA ORDEM DE PAGAMENTO PARA OUTRA
+INSTITUIÇÃO DE FORMA IMEDIATA. NA IMPOSSIBILIDADE DE TAL TRANSFERÊNCIA, A
+PRESENTE OPERAÇÃO SERÁ CANCELADA, SEM QUAISQUER RESPONSABILIDADES,
+OBRIGAÇÕES OU ÔNUS PARA O VENDEDOR.
+(0012) PELA ASSINATURA DO PRESENTE CONTRATO, O COMPRADOR DE MOEDA
+ESTRANGEIRA ASSUME DESDE JA, DE FORMA EXCLUSIVA, QUALQUER
+RESPONSABILIDADE REFERENTE A PRESTACAO DE INFORMACOES RELATIVAS AS
+TRANSACOES SUBJACENTES AO CONTRATO DE CAMBIO, INCLUINDO, QUANDO FOR O
+CASO, O PREENCHIMENTO DO SISTEMA INTEGRADO DE COMERCIO EXTERIOR DE
+SERVICOS, INTANGIVEIS E OUTRAS OPERACOES QUE PRODUZAM VARIACOES NO
+PATRIMONIO (SISCOSERV), FICANDO O BANCO BTG PACTUAL S.A., OU QUALQUER
+OUTRA EMPRESA INTEGRANTE DE SEU GRUPO, ISENTO DE QUAISQUER OBRIGACOES
+ADVINDAS DA OMISSAO OU INCORRECAO DAS INFORMACOES PRESTADAS.
+Instruções de recebimento/pagamento
+Canal Bancário em Moeda Nacional
+Forma de Entrega Data Banco Agência Conta
+Conta de Depósito 03/04/2024 208 BTG 1 001464585
+Canal Bancário em Moeda Estrangeria
+Banco do Beneficiário
+Código SWIFT Código ABA Código Chips
+BSCHBRSP
+Nome do Banco
+BANCO SANTANDER (BRASIL) S.A.
+Conta no Exterior do Beneficiário / IBAN
+BR2390400888018560900578220E1
+Banco Intermediário
+Código SWIFT Código ABA Código Chips
+SCBLUS33
+Nome do Banco
+STANDARD CHARTERED BANK
+Página 3 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186358 03/04/2024
+Conta do Banco do Beneficiário no Banco Intermediário / IBAN
+Página 4 de 5Contrato de Câmbio
+Tipo do Contrato Evento Número do Contrato Data
+Venda Contratação 403186358 03/04/2024
+O cliente declara ter pleno conhecimento do texto constante do respectivo contrato de câmbio, do
+art. 23 da Lei n° 4.131, de 3 de setembro de 1962, e em especial dos seus §§ 2° e 3°, transcritos
+neste documento, bem como da Circular n° 3.691, de 16 de dezembro de 2013, que regem a
+presente operação.
+Artigo 23, §§ 2° e 3°, da Lei n° 4.131, de 1962, com a redação dada pelo art. 44 da Lei n° 13.506, de
+13 de novembro de 2017:
+§ 2° Constitui infração imputável individualmente ao estabelecimento bancário, ao corretor e ao
+cliente a declaração de falsa identidade no formulário que, segundo o modelo determinado pelo
+Banco Central do Brasil, será exigido em cada operação, assinado pelo cliente e visado pelo
+estabelecimento bancário e pelo corretor que nela intervierem.
+§ 3° Constitui infração, de responsabilidade exclusiva do cliente, a declaração de informações falsas
+no formulário a que se refere o § 2° deste artigo.
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio
+assinado eletronicamente”.
+Instituição autorizada a operar no mercado de câmbio: BANCO BTG PACTUAL S/A
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio
+assinado eletronicamente”.
+Cliente: OCEANICA ENGENHARIA E CONSULTORIA S.A.
+Página 5 de 5
+2024-05-27 17:38:37.228Z;functions.extrair_contrato.2078:  num_contrato 403186358
+2024-05-27 17:38:37.229Z;functions.extrair_contrato.2088:  banco BANCO BTG PACTUAL
+2024-05-27 17:38:37.229Z;functions.extrair_contrato.2101:  taxa_camb 5,109000000000
+2024-05-27 17:38:37.230Z;functions.extrair_contrato.2113:  Erro inv - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\AXA_CONTRATO_USD 5.325,11_R$ 27.205,99.pdf
+2024-05-27 17:38:37.231Z;functions.extrair_contrato.2121:  pagador AXA SEGUROS SA
+2024-05-27 17:38:37.231Z;functions.extrair_contrato.2136:  moeda USD
+2024-05-27 17:38:37.232Z;functions.extrair_contrato.2137:  valor_estr 5.325,11
+2024-05-27 17:38:37.233Z;functions.extrair_contrato.2149:  ir 0,00
+2024-05-27 17:38:37.233Z;functions.extrair_contrato.2159:  cide 0,00
+2024-05-27 17:38:37.234Z;functions.extrair_contrato.2169:  pis 0,00
+2024-05-27 17:38:37.234Z;functions.extrair_contrato.2179:  cofins 0,00
+2024-05-27 17:38:37.235Z;functions.extrair_contrato.2189:  iof 103,38
+2024-05-27 17:38:37.235Z;functions.extrair_contrato.2253:  Informações extraidas: {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\AXA_CONTRATO_USD5325,11_R$27205,99pdf', 'contrato': '403186358', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,109000000000', 'inv': 'FORA DO PADRÃO', 'pagador': 'AXA SEGUROS SA', 'moeda': 'USD', 'valor': '5.325,11', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '103,38'}
+2024-05-27 17:38:37.237Z;functions.extrair_contrato.2257:  contrato_fora_padrao_list
+2024-05-27 17:38:37.237Z;functions.extrair_contrato.2009:  Contrato: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\EXTRATO BTG 012024.pdf
+2024-05-27 17:38:37.238Z;functions.extrair_contrato.2011:  nome EXTRATO BTG 012024.pdf
+2024-05-27 17:38:41.426Z;functions.extrair_contrato.2045:  PDF COM IMAGEM
+2024-05-27 17:38:41.432Z;functions.tranf_pdf_pdf2.3038:  PDF copiado
+2024-05-27 17:38:41.433Z;functions.tranf_pdf_pdf2.3041:  nome EXTRATO BTG 012024
+2024-05-27 17:38:42.426Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:38:42.602Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:39:16.552Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:39:16.552Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:39:16.693Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:39:16.810Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:39:16.864Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:39:16.865Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:39:16.907Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:39:16.955Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:39:16.956Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:39:16.995Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:39:17.239Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:39:17.989Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:39:18.020Z;functions.tranf_pdf_pdf2.3095:  Novo PDF com imagens salvo
+2024-05-27 17:39:40.213Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:39:40.254Z;ocr.exec_concurrent.145:  Postprocessing...
+2024-05-27 17:39:43.864Z;_pipeline.optimize_pdf.989:  Image optimization ratio: 1.00 savings: 0.0%
+2024-05-27 17:39:43.864Z;_pipeline.optimize_pdf.992:  Total file size ratio: 1.07 savings: 6.1%
+2024-05-27 17:39:43.898Z;_common.report_output_pdf.441:  Output file is a PDF/A-2B (as expected)
+2024-05-27 17:39:43.942Z;functions.pdf_image_to_text.2945:  PDF transformado para texto
+2024-05-27 17:39:44.043Z;functions.extrair_contrato.2052:  texto: Liquidações de Câmbio btog pactual 
+Movimentações 
+Data m Descrição Valor R$ Contrato 
+03/01/24 IODF S/CAMBIO * 25,97 IOF-3875840% 
+03/01/24 LIQ CAMBIO * 6.8393,75 LQ CAM_Blo-aaTSMOTb 
+03/01/24 | LIO CAMBIO * 15.127,78 LIQ CAMBIO-387583893 
+03/01/24 * IOF S/CAMBIO * 1.008,66 WOF-387584101 
+03/01/24 * LIQ CAMBIO * 31.439,47 LIQ CAMBIO-387584273 
+03/01/24 * LIQ CAMBIO * 265 .437,61 LIQ CAMBIO-387584101 
+03/01/24 * IOF S/CAMBIO * 47,22 WOF-387584596 
+03/01/24 í LIQ CAMBIO * 12.425,00 LIQ CAMBIO-387584596 
+03/01/24 * LIQ CAMBIO * 8.1593,28 LIQ CAMBIO-28758 7952 
+03/01/24 * IOF S/CAMBIO * 192,25 (OF-2875823929 
+03/01/24 * LIQ CAMBIO * 50 .592,92 LIQ CAMBIO-28758 23929 
+04/01/24 * LIQ CAMBIO * 32.329,60 LIQ CAMBIO-388058239 
+08/01/24 * LIQ CAMBIO * 4.143.306,860 LIQ CAMBIO-38864 7949 
+09/01/24 * LIQ CAMBIO * 28 .785 , 42 LIQ CAMBIO-388922783 
+09/01/24 * IOF S/CAMBIO * 1.594,14 (OF-3889227861 
+09/01/24 | I1OF S/CAMBIO * 1.593,98 (OF-388922%9 
+09/01/24 LKIQ CAMBIO * 419 .510,36 LIQ CAMBIO-388922781 
+09/01/24 LKIQ CAMBIO * 419 .460,91 LIQ CAMBIO-388922%9 
+10/01/24 LKQ CAMBIO * 110.178,86 LIQ CAMBIO-389158233 
+16/01/24 I1OF S/CAMBIO * 936,88 IOF-390053650 
+16/01/24 LIQ CAMBIO * 246 .546,90 LIQ CAMBIO-390053850 
+22/01/24 IOF S/CAMBIO * 12,93 (OF-39 0877067 
+22/01/24 I1OF S/CAMBIO * 37,28 tOF-390877139 
+22/01/?24 IOF S/CAMBIO * 31,95 (OF-390877144 
+22/01/24 IOF S/CAMBIO * 14,12 DF-SJTTOTS 
+22/01/24 I1OF S/CAMBIO * 2,89 (OF-390877148 
+22/01/24 IOF S/CAMBIO * 8.14 IOF-39087706 4 
+22/01/24 IOF S/CAMBIO * 12,93 IOF-390877068
+
+2024-05-27 17:39:44.056Z;functions.extrair_contrato.2080:  Erro num_contrato - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.057Z;functions.extrair_contrato.2090:  Erro banco - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.058Z;functions.extrair_contrato.2103:  Erro taxa_camb - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.059Z;functions.extrair_contrato.2113:  Erro inv - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.060Z;functions.extrair_contrato.2123:  Erro pagador - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.061Z;functions.extrair_contrato.2139:  Erro moeda/valor_estr - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.061Z;functions.extrair_contrato.2151:  Erro C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.062Z;functions.extrair_contrato.2161:  Erro cide - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.063Z;functions.extrair_contrato.2171:  Erro pis - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.064Z;functions.extrair_contrato.2181:  Erro cofins - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.065Z;functions.extrair_contrato.2191:  Erro iof - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\EXTRATO BTG 012024.pdf
+2024-05-27 17:39:44.066Z;functions.extrair_contrato.2253:  Informações extraidas: {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\EXTRATOBTG012024pdf', 'contrato': 'FORA DO PADRÃO', 'banco': 'FORA DO PADRÃO', 'cambial': 'FORA DO PADRÃO', 'inv': 'FORA DO PADRÃO', 'pagador': 'FORA DO PADRÃO', 'moeda': 'FORA DO PADRÃO', 'valor': 'FORA DO PADRÃO', 'ir': 'FORA DO PADRÃO', 'cide': 'FORA DO PADRÃO', 'pis': 'FORA DO PADRÃO', 'cofins': 'FORA DO PADRÃO', 'iof': 'FORA DO PADRÃO'}
+2024-05-27 17:39:44.070Z;functions.extrair_contrato.2257:  contrato_fora_padrao_list
+2024-05-27 17:39:44.072Z;functions.extrair_contrato.2009:  Contrato: C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf
+2024-05-27 17:39:44.074Z;functions.extrair_contrato.2011:  nome FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf
+2024-05-27 17:40:15.020Z;functions.extrair_contrato.2045:  PDF COM IMAGEM
+2024-05-27 17:40:15.020Z;functions.tranf_pdf_pdf2.3038:  PDF copiado
+2024-05-27 17:40:15.020Z;functions.tranf_pdf_pdf2.3041:  nome FORUM_CONTRATO_GBP 26.410,00_R$173.672,16
+2024-05-27 17:40:16.130Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:40:16.302Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:40:50.801Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:40:50.801Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:40:50.959Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:40:51.090Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:40:51.145Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:40:51.146Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:40:51.185Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:40:51.234Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:40:51.235Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:40:51.280Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:40:51.521Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:40:52.583Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:40:53.567Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:40:53.725Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:41:28.786Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:41:28.786Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:41:28.927Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:41:29.062Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:41:29.111Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:41:29.112Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:41:29.155Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:41:29.309Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:41:29.310Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:41:29.359Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:41:29.614Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:41:31.177Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:41:32.199Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:41:32.349Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:42:07.254Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:42:07.254Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:42:07.378Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:42:07.491Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:42:07.533Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:42:07.534Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:42:07.576Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:42:07.617Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:42:07.618Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:42:07.651Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:42:07.896Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:42:09.052Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:42:10.036Z;functions.tranf_pdf_pdf2.3074:  Imagem redimensionada
+2024-05-27 17:42:10.208Z;functions.preprocess_image2.2982:  pre 1
+2024-05-27 17:42:44.348Z;functions.preprocess_image2.2985:  pre 2
+2024-05-27 17:42:44.348Z;functions.preprocess_image2.2987:  pre 3
+2024-05-27 17:42:44.481Z;functions.preprocess_image2.2989:  pre 4
+2024-05-27 17:42:44.598Z;functions.preprocess_image2.2996:  pre 5
+2024-05-27 17:42:44.644Z;functions.preprocess_image2.3007:  pre 6
+2024-05-27 17:42:44.644Z;functions.preprocess_image2.3011:  pre 7
+2024-05-27 17:42:44.684Z;functions.preprocess_image2.3013:  pre 8
+2024-05-27 17:42:44.725Z;functions.preprocess_image2.3016:  pre 9
+2024-05-27 17:42:44.726Z;functions.preprocess_image2.3023:  pre 10
+2024-05-27 17:42:44.765Z;functions.tranf_pdf_pdf2.3078:  Imagem redimensionada Pos processada
+2024-05-27 17:42:45.005Z;functions.tranf_pdf_pdf2.3087:  Imagem Pos processada aberta
+2024-05-27 17:42:45.974Z;functions.tranf_pdf_pdf2.3090:  Imagem Pos processada escrita
+2024-05-27 17:42:46.102Z;functions.tranf_pdf_pdf2.3095:  Novo PDF com imagens salvo
+2024-05-27 17:42:47.274Z;ocr.exec_concurrent.96:  Start processing 3 pages concurrently
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.598Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.611Z;tesseract.tesseract_log_output.253:  [tesseract] Error in pixClipBoxToForeground: box not within image
+2024-05-27 17:43:02.706Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:43:06.621Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:43:20.481Z;tesseract.tesseract_log_output.257:  [tesseract] read_params_file: Can't open --oem 2 --psm 11 dpi 300 --remove_noise --tessedit_create_hocr 1 --textonly_pdf 1 --remove_background True
+2024-05-27 17:43:20.547Z;ocr.exec_concurrent.145:  Postprocessing...
+2024-05-27 17:43:36.465Z;optimize.optimize.717:  Image optimization did not improve the file - optimizations will not be used
+2024-05-27 17:43:36.991Z;_pipeline.optimize_pdf.989:  Image optimization ratio: 1.00 savings: -0.1%
+2024-05-27 17:43:36.991Z;_pipeline.optimize_pdf.992:  Total file size ratio: 1.28 savings: 21.6%
+2024-05-27 17:43:37.058Z;_common.report_output_pdf.441:  Output file is a PDF/A-2B (as expected)
+2024-05-27 17:43:37.297Z;functions.pdf_image_to_text.2945:  PDF transformado para texto
+2024-05-27 17:43:37.739Z;functions.extrair_contrato.2052:  texto: Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405933452 18/04/2024 
+As partes a seguir denominadas, instituição autorizada à operar no mercado de câmbio e 
+cliente, contratam a presente operação de câmbio, nas condições aqui estipuladas e declaram que a 
+mesma subordina-se às normas, condições e exigências legais e regulamentares aplicáveis à 
+matéria. 
+Instituição autorizada a operar no mercado de câmbio 
+BANCO BTG PACTUAL 30.306.294/0001-45 
+Endereço 
+AV. BRIGADEIRO FARIA LIMA 3477 
+Ci_dade UF 
+SAÃAO PAULO SP 
+Cliente 
+Nome CNPJI/CPF/Ident. 
+OCEANICA ENGENHARIA E CONSULTORIA S.A. Estrangeiro 
+29.980.141/0001-08 
+Endereço 
+AVENIDA DAS AMERICAS 03434 BLC 01 SALAS 301 A 308 - BARRA DA TIJUCA 
+RIO DE JANEIRO RJ BRASIL 
+Instituição Intermediadora* 
+Dados da Operação 
+Código Moeda Valor em moeda estrangeira 
+GBP 26.410,00 (Vinte e Seis Mil e Quatrocentas e Dez Libras Esterlinas 
+Valor em moeda nacional 
+R$ 17/73.6/2,16 (Cento e Setenta e Três Mil e Seiscentos e Setenta e 
+Dois Reais e Dezesseis Centavos 
+Valor Efetivo Total (VET) | Descrição da forma de entrega da | Liquidação até 
+moeda estrangeira 
+6,5/6000000000 Teletransmissão 18/04/2024 
+Código da Natureza Descrição da natureza do fato 
+12407-67-N-05-67 Importação - Pagamento antecipado - até 180 dias 
+FORUM ENERGY TECHNOLOGIES (UWI) LTD 
+País do pagador ou recebedor no|Código da relação de vínculo entre o cliente e o 
+exterior* pagadorirecebedor no exterior* 
+- — Classificaão não  requerida  pela 
+REINO UNIDO ulamentação 
+Percentual de adiantamento sobre o contrato de câmbio* _ 
+* Campo a ser preenchido quando aplicável 
+Página 1 de 4
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405933452 18/04/2024 
+Outras Especificações 
+Tributos(RS$): IR(0473) 0,00 - CIDE(8741) 0,00 - IOF 0,00 
+Tributos(R$): PIS(5434) 0,00 - COFINS(5442) 0,00 
+Tarifa do Contrato: R$0,00 
+INV PRO-2294 
+Declaro estar ciente de que o Banco BTG Pactual S.A. (BTG') não presta consultoria tributária, 
+nem valida e/ou confirma impactos fiscais decorrentes do fechamento de contratos de câmbio. 
+Nesse sentido, concordo que qualquer decisão de recolhimento de tributos e eventuais 
+consectários legais cabe exclusivamente a mim e a meus assessores legais, e que os valores 
+monetários apresentados no presente contrato são apenas indicativos. Declaro também que, na 
+tomada de decisão sobre o recolhimento de tributos, considerei o risco de incidência de multa e 
+acréscimos moratórios caso o recolhimento ocorra em atraso. Em caso de desacordo com as 
+alíquotas e/ou com os valores apresentados no presente contrato, o recolhimento dos tributos 
+ocorrerá mediante indicação de fundamento legal apropriado, e será (i) realizado pelo BTG por 
+meio de pedido formalizado em carta específica; ou (ii) comprovado ao BTG por meio de prévio 
+envio dos respectivos comprovantes de recolhimento. Em qualquer dos casos, a carta e/ou o 
+comprovante refletirão os valores efetivamente recolhidos, sem que seja necessário alterar os 
+valores indicados no presente contrato em caso de divergências. Declaro ainda que estou ciente 
+de que, no entendimento do Banco, o fato gerador dos tributos decorrentes de remessas ao 
+exterior ocorre no momento do pagamento, crédito, entrega, emprego ou remessa. 
+Cláusulas Contratuais 
+(0004) O COMPRADOR SE RESPONSABILIZA PELA EXATIDAO DAS INFORMACOES POR 
+ELE PRESTADAS NO  AMBITO DO PRESENTE — CONTRATO, DEVENDO, 
+INCLUSIVE, REEMBOLSAR INTEGRALMENTE O BANCO BTG PACTUAL S.A. PELO 
+PAGAMENTO DE MULTAS E QUAISQUER OUTRAS DESPESAS DECORRENTES DE 
+INCORRECAO DAS MESMAS. 
+(0006) O COMPRADOR DECLARA PARA OS DEVIDOS FINS ESTAR EM DIA COM TODAS AS 
+OBRIGACOES TRIBUTARIAS PERANTE A RECEITA FEDERAL, ASSUMINDO NESTE ATO 
+TOTAL E IRRETRATAVEL RESPONSABILIDADE PELA VERACIDADE DESTA INFORMA CAO. 
+O COMPRADOR ASSUME, AINDA, DE FORMA INTEGRAL, A RESPONSABILIDADE PELO 
+PAGAMENTO DE ITRIBUIOS RELAIIVOS A OPERACÃO EM REFERENCIA QUE 
+PORVENTURA VENHAM AÀ SER EXIGIDOS PELAS AUTORIDADES GOVERNAMENTAIS 
+BRASILEIRAS OU ESTRANGEIRAS. 
+(0008) O COMPRADOR COMPROMETE-SE DE FORMA IRRETRATAVEL AÀA ACATAR 
+IMEDIATA- MENTE QUALQUER SOLICITACÃO DO BANCO CENTRAL DO BRASIL OU DA 
+RECEITA FEDERAL, INCLUSIVE PEDIDO DE ENVIO DE INFORMACOES E DOCUMENTOS 
+RELATIVOS AÀ ESTA OPERAÇAO DE CAMBIO. 
+(0010) O COMPRADOR, PELA ASSINATURA DO PRESENTE CONTRATO, DESDE JÁ 
+RECONHECE QUE O VENDEDOR PODERÁ ESTAR IMPEDIDO DE LIQUIDAR O PRESENTE 
+CONTRATO EM VIRTUDE DE ESTAR SUJEITO TANTO ÀS LEIS E REGULAMENTAÇÕES 
+BRASILEIRAS, QUANTO ÀS ESTRANGEIRAS, DEPENDENDO DAS CIRCUNSTÂNCIAS DAS 
+Página 2 de 4 
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+btao pactual Venda Contratação 405933452 18/04/2024 
+NEGOCIAÇÕES ENTRE AS PARTES. NA HIPÓTESE DE TAL ACONTECIMENTO, O 
+VENDEDOR DEVERÁ INFORMAR E JUSTIFICAR AO COMPRADOR QUAL FOI O MOTIVO DA 
+MENCIONADA IMPOSSIBILIDADE, FICANDO DESDE JÁ ACORDADO QUE COMPRADOR 
+DEVERÁ SOLICITAR A TRANSFERÊNCIA DA ORDEM DE PAGAMENTO PARA OUTRA 
+INSTITUIÇÃO DE FORMA IMEDIATA. NA IMPOSSIBILIDADE DE TAL TRANSFERÊNCIA, A 
+PRESENTE OPERAÇÃO SERÁ CANCELADA, SEM QUAISQUER RESPONSABILIDADES, 
+OBRIGAÇÕES OU ÔNUS PARA O VENDEDOR. 
+(0012) PELA ASSINATURA DO PRESENTE CONTRAIO, O COMPRADOR DE MOEDA 
+ESTRANGEIRA ASSUME DESDE UJA DE FORMA EXCLUSIVA — QUALQUER 
+RESPONSABILIDADE REFERENTE AÀ PRESTACÃO DE INFORMACOES RELATIVAS AS 
+TRANSAÇCOES SUBJACENTES AO CONTRATO DE CAMBIO, INCLUINDO, QUANDO FOR O 
+CASO, O PREENCHIMENTO DO SISTEMA INTEGRADO DE COMERCIO EXTERIOR DE 
+SERVICOS, INTANGIVEIS E OUTRAS OPERACOES QUE PRODUZAM VARIACOES NO 
+PATRIMONIO (SISCOSERV), FICANDO O BANCO BTG PACTUAL S.A., OU QUALQUER 
+OUTRA EMPRESA INTEGRANTE DE SEU GRUPO, ISENTO DE QUAISQUER OBRIGACOES 
+ADVINDAS DA OMISSAÃO OU INCORRECÇCAÃO DAS INFORMACOES PRESTADAS. 
+Instruções de recebimento/pagamento 
+Canal Bancário em Moeda Nacional 
+Forma de Entrega | Data Banco Agência | Conta 
+Conta de Depósito | 18/04/2024 208 BTG 1 OO1464585 
+Canal Bancário em Moeda Estrangeria 
+Banco do Beneficiário 
+CHASGB2L 
+JPMORGAN CHASE BANK, N.A. 
+Conta no Exterior do Beneficiário / IBAN 
+GBS1CHASSO924216239263 
+Banco Intermediário 
+Código SWIFT Código ABA Código Chips 
+Nome do Banco 
+Conta do Banco do Beneficiário no Banco Intermediário / IBAN MMM 
+Página 3 de 4
+Contrato de Câmbio 
+Tipo do Contrato | Evento Número do Contrato | Data 
+Venda Contratação 405933452 18/04/2024 
+O cliente declara ter pleno conhecimento do texto constante do respectivo contrato de câmbio, do 
+art. 23 da Lei nº 4.131, de 3 de setembro de 1962, e em especial dos seus 88 2º e 3º, transcritos 
+neste documento, bem como da Circular nº 3.691, de 16 de dezembro de 2013, que regem a 
+presente operação. 
+Artigo 23, 88 2º e 3º, da Lei nº 4.131, de 1962, com a redação dada pelo art. 44 da Lei nº 13.506, de 
+13 de novembro de 2017: 
+8 2º Constitui infração imputável individualmente ao estabelecimento bancário, ao corretor e ao 
+cliente a declaração de falsa identidade no formulário que, segundo o modelo determinado pelo 
+Banco Central do Brasil, será exigido em cada operação, assinado pelo cliente e visado pelo 
+estabelecimento bancário e pelo corretor que nela intervierem. 
+8 3º Constitui infração, de responsabilidade exclusiva do cliente, a declaração de informações falsas 
+no formulário a que se refere o & 2º deste artigo. 
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio 
+assinado eletronicamente”. 
+Instituição autorizada a operar no mercado de câmbio: BANCO BTG PACTUAL S/A 
+Assinatura: Nome, CPF e Assinatura manual autorizada ou a expressão “Contrato de câmbio 
+assinado eletronicamente”. 
+Cliente: OCEANICA ENGENHARIA E CONSULTORIA S.A. 
+Página 4 de 4
+
+2024-05-27 17:43:37.811Z;functions.extrair_contrato.2078:  num_contrato 405933452
+2024-05-27 17:43:37.812Z;functions.extrair_contrato.2088:  banco BANCO BTG PACTUAL
+2024-05-27 17:43:37.814Z;functions.extrair_contrato.2101:  taxa_camb 6,5
+2024-05-27 17:43:37.815Z;functions.extrair_contrato.2111:  inv PRO
+2024-05-27 17:43:37.816Z;functions.extrair_contrato.2123:  Erro pagador - C:\\Projetos\\Retornos\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\PDF\\pdf_img_orig\\FORUM_CONTRATO_GBP 26.410,00_R$173.672,16.pdf
+2024-05-27 17:43:37.819Z;functions.extrair_contrato.2136:  moeda Não encontrada
+2024-05-27 17:43:37.821Z;functions.extrair_contrato.2137:  valor_estr 26.410,00
+2024-05-27 17:43:37.822Z;functions.extrair_contrato.2149:  ir 0,00
+2024-05-27 17:43:37.823Z;functions.extrair_contrato.2159:  cide 0,00
+2024-05-27 17:43:37.824Z;functions.extrair_contrato.2169:  pis 0,00
+2024-05-27 17:43:37.825Z;functions.extrair_contrato.2179:  cofins 0,00
+2024-05-27 17:43:37.827Z;functions.extrair_contrato.2189:  iof 0,00
+2024-05-27 17:43:37.828Z;functions.extrair_contrato.2253:  Informações extraidas: {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\FORUM_CONTRATO_GBP26410,00_R$173672,16pdf', 'contrato': '405933452', 'banco': 'BANCO BTG PACTUAL', 'cambial': '6,5', 'inv': 'PRO', 'pagador': 'FORA DO PADRÃO', 'moeda': 'Não encontrada', 'valor': '26.410,00', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '0,00'}
+2024-05-27 17:43:37.830Z;functions.extrair_contrato.2257:  contrato_fora_padrao_list
+2024-05-27 17:43:37.830Z;functions.excel.2426:  contrato_padrao_list [{'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\ARGUS_CONTRATO_USD1374,00_R$7172,28pdf', 'contrato': '405260950', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,220000000000', 'inv': '15345', 'pagador': 'ARGUS REMOTE SYSTEMS AS ', 'moeda': 'Não encontrada', 'valor': '1.374,00', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '0,00'}]
+2024-05-27 17:43:37.830Z;functions.excel.2427:  contrato_fora_padrao_list [{'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\ARGUS_CONTRATO_USD3024,00_R$15785,28pdf', 'contrato': '405260930', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,220000000000', 'inv': '15345', 'pagador': 'FORA DO PADRÃO', 'moeda': 'Não encontrada', 'valor': '3.024,00', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '0,00'}, {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\AXA_CONTRATO_USD3972,37_R$20294,84pdf', 'contrato': '403186441', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,109000000000', 'inv': 'FORA DO PADRÃO', 'pagador': 'AXA SEGUROS SA', 'moeda': 'USD', 'valor': '3.972,37', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '77,12'}, {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\AXA_CONTRATO_USD5325,11_R$27205,99pdf', 'contrato': '403186358', 'banco': 'BANCO BTG PACTUAL', 'cambial': '5,109000000000', 'inv': 'FORA DO PADRÃO', 'pagador': 'AXA SEGUROS SA', 'moeda': 'USD', 'valor': '5.325,11', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '103,38'}, {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\EXTRATOBTG012024pdf', 'contrato': 'FORA DO PADRÃO', 'banco': 'FORA DO PADRÃO', 'cambial': 'FORA DO PADRÃO', 'inv': 'FORA DO PADRÃO', 'pagador': 'FORA DO PADRÃO', 'moeda': 'FORA DO PADRÃO', 'valor': 'FORA DO PADRÃO', 'ir': 'FORA DO PADRÃO', 'cide': 'FORA DO PADRÃO', 'pis': 'FORA DO PADRÃO', 'cofins': 'FORA DO PADRÃO', 'iof': 'FORA DO PADRÃO'}, {'nome': 'C:\\\\Projetos\\\\Retornos\\\\Retorno_Baixa_Remessa_Moeda_Estrangeira\\\\PDF\\FORUM_CONTRATO_GBP26410,00_R$173672,16pdf', 'contrato': '405933452', 'banco': 'BANCO BTG PACTUAL', 'cambial': '6,5', 'inv': 'PRO', 'pagador': 'FORA DO PADRÃO', 'moeda': 'Não encontrada', 'valor': '26.410,00', 'ir': '0,00', 'cide': '0,00', 'pis': '0,00', 'cofins': '0,00', 'iof': '0,00'}]
